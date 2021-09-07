@@ -22,15 +22,15 @@
 * [Data](#data)
 * [Libraries](#libraries)
 * [Methodology](#methodology)
-* [How to Use] (#how-to-use)
+* [How to Use](#how-to-use)
 
- [about-the-solution] ## About the Solution
+ ## About the Solution
 
 This folder reproduces the kaggle team Deepflash2's solution for HuBMAP- Hacking the Kidney Challenge on the same dataset (kidney); and also tests it on a different dataset (colon). The goal of the challenge is to detect functional tissue units (FTUs) in the kidney tissue using machine learning algorithms. Moreover, how well a model developed for kidney FTU(s), glomeruli, can generalize on colon FTU(s), crypts.
 
 Kaggle competition - https://www.kaggle.com/c/hubmap-kidney-segmentation
 
-[data] ## Data
+## Data
 #### Kidney 
 The kidney dataset consists 15 high resolution train images and corresponding masks and 5 test images and corresponding masks. It also contains a metadata file containing patients' height weight age gender etc. The image masks are present in two formats - json file or run-length encoding, and can be obtained from one another.
 
@@ -38,7 +38,7 @@ The kidney dataset consists 15 high resolution train images and corresponding ma
 The colon dataset consists 5 train images and corresponding masks and 2 test images and the corresponding masks. A meta data file, similar to the kidney data, is present as well. 
 
 
-[libraries] ## Libraries
+## Libraries
 The code ran on a windows based system with 256GB RAM, i9-10900X Intel Core CPU @ 3.70 GHz.
 The specific library versions used are as follows: 
 1. cv2 4.4.0
@@ -67,7 +67,7 @@ The specific library versions used are as follows:
 24. json 2.0.9
 25. PIL 8.1.1
 
-[methodology] ## Methodology
+## Methodology
 #### Data Pre-processing
 1. Augmentation/Preprocessing
 2. Efficient Sampling - no "pre-tiling" needed, the training data gets converted into .zarr files for efficient loading.
@@ -104,7 +104,7 @@ Tried the same experiment for different optimizers (SGD, AdamW, Ranger, Madgrad)
 To evaluate the performance of the models, trained and tested them in a five-fold cross validation on kidney data and colon data.
 
 
-[how-to-use] ## How to Use
+## How to Use
 #### To reproduce the solution:
 1. Data preprocessing - Convert the images into zarr format, and calculate the pdfs for the images (use zarr and labels code file)
 2. Training - Train on the kidney data and save the 5 fold models (use train code file)
