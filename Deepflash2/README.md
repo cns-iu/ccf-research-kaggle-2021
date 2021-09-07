@@ -18,13 +18,13 @@
 
 ## Table of Contents
 
-* [About the Solution](#about-the-project)
+* [About the Solution](#about-the-solution)
 * [Data](#data)
 * [Libraries](#libraries)
 * [Methodology](#methodology)
 * [How to Use] (#how-to-use)
 
-## About the Solution
+## [about-the-solution] About the Solution
 
 This folder reproduces the kaggle team Deepflash2's solution for HuBMAP- Hacking the Kidney Challenge on the same dataset (kidney); and also tests it on a different dataset (colon). The goal of the challenge is to detect functional tissue units (FTUs) in the kidney tissue using machine learning algorithms. Moreover, how well a model developed for kidney FTU(s), glomeruli, can generalize on colon FTU(s), crypts.
 
@@ -104,7 +104,7 @@ Tried the same experiment for different optimizers (SGD, AdamW, Ranger, Madgrad)
 To evaluate the performance of the models, trained and tested them in a five-fold cross validation on kidney data and colon data.
 
 
-## How to Use
+## [how-to-use] How to Use
 #### To reproduce the solution:
 1. Data preprocessing - Convert the images into zarr format, and calculate the pdfs for the images (use zarr and labels code file)
 2. Training - Train on the kidney data and save the 5 fold models (use train code file)
