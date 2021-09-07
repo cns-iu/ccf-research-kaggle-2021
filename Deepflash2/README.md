@@ -1,10 +1,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/cns-iu/ccf-research-ftu">
-    <img src="images/cns-logo-1.png" alt="Logo">
-  </a>
-
   <h3 align="center">Common Coordinate Framework (CCF) Research on Functional Tissue Units (FTU)</h3>
 
   <p align="center">
