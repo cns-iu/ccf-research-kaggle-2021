@@ -1,0 +1,282 @@
+Creating in-memory dataset ...
+Done in 44 seconds.
+
+-------------   Fold 1 / 5  -------------
+
+    -> 8757250 trainable parameters
+    -> Validation images : ['2f6ecfcdf', 'b2dc8411c', '4ef6695ce'] 
+
+Epoch 01/40 	 lr=5.0e-04	 t=296s	loss=0.317	val_loss=0.036 	 dice=0.9028
+Epoch 02/40 	 lr=1.0e-03	 t=303s	loss=0.044	val_loss=0.014 	 dice=0.9029
+Epoch 03/40 	 lr=9.7e-04	 t=297s	loss=0.030	val_loss=0.010 	 dice=0.9268
+Epoch 04/40 	 lr=9.5e-04	 t=291s	loss=0.026	val_loss=0.008 	 dice=0.9445
+Epoch 05/40 	 lr=9.2e-04	 t=298s	loss=0.021	val_loss=0.007 	 dice=0.9514
+Epoch 06/40 	 lr=8.9e-04	 t=301s	loss=0.021	val_loss=0.007 	 dice=0.9501
+Epoch 07/40 	 lr=8.7e-04	 t=298s	loss=0.020	val_loss=0.006 	 dice=0.9452
+Epoch 08/40 	 lr=8.4e-04	 t=299s	loss=0.020	val_loss=0.007 	 dice=0.9386
+Epoch 09/40 	 lr=8.2e-04	 t=312s	loss=0.021	val_loss=0.009 	 dice=0.9169
+Epoch 10/40 	 lr=7.9e-04	 t=301s	loss=0.020	val_loss=0.006 	 dice=0.9488
+Epoch 11/40 	 lr=7.6e-04	 t=302s	loss=0.020	val_loss=0.006 	 dice=0.9548
+Epoch 12/40 	 lr=7.4e-04	 t=290s	loss=0.019	val_loss=0.006 	 dice=0.9593
+Epoch 13/40 	 lr=7.1e-04	 t=300s	loss=0.017	val_loss=0.006 	 dice=0.9579
+Epoch 14/40 	 lr=6.8e-04	 t=318s	loss=0.017	val_loss=0.005 	 dice=0.9533
+Epoch 15/40 	 lr=6.6e-04	 t=300s	loss=0.018	val_loss=0.007 	 dice=0.9493
+Epoch 16/40 	 lr=6.3e-04	 t=299s	loss=0.018	val_loss=0.006 	 dice=0.9498
+Epoch 17/40 	 lr=6.1e-04	 t=289s	loss=0.018	val_loss=0.006 	 dice=0.9567
+Epoch 18/40 	 lr=5.8e-04	 t=288s	loss=0.017	val_loss=0.005 	 dice=0.9579
+Epoch 19/40 	 lr=5.5e-04	 t=308s	loss=0.016	val_loss=0.005 	 dice=0.9578
+Epoch 20/40 	 lr=5.3e-04	 t=301s	loss=0.016	val_loss=0.005 	 dice=0.9581
+Epoch 21/40 	 lr=5.0e-04	 t=298s	loss=0.016	val_loss=0.005 	 dice=0.9530
+Epoch 22/40 	 lr=4.7e-04	 t=308s	loss=0.015	val_loss=0.005 	 dice=0.9578
+Epoch 23/40 	 lr=4.5e-04	 t=298s	loss=0.016	val_loss=0.005 	 dice=0.9630
+Epoch 24/40 	 lr=4.2e-04	 t=294s	loss=0.016	val_loss=0.005 	 dice=0.9604
+Epoch 25/40 	 lr=3.9e-04	 t=303s	loss=0.015	val_loss=0.005 	 dice=0.9651
+Epoch 26/40 	 lr=3.7e-04	 t=303s	loss=0.016	val_loss=0.005 	 dice=0.9629
+Epoch 27/40 	 lr=3.4e-04	 t=311s	loss=0.015	val_loss=0.005 	 dice=0.9631
+Epoch 28/40 	 lr=3.2e-04	 t=299s	loss=0.014	val_loss=0.004 	 dice=0.9632
+Epoch 29/40 	 lr=2.9e-04	 t=306s	loss=0.014	val_loss=0.004 	 dice=0.9618
+Epoch 30/40 	 lr=2.6e-04	 t=297s	loss=0.014	val_loss=0.005 	 dice=0.9644
+Epoch 31/40 	 lr=2.4e-04	 t=299s	loss=0.015	val_loss=0.005 	 dice=0.9614
+Epoch 32/40 	 lr=2.1e-04	 t=289s	loss=0.015	val_loss=0.005 	 dice=0.9606
+Epoch 33/40 	 lr=1.8e-04	 t=295s	loss=0.014	val_loss=0.005 	 dice=0.9599
+Epoch 34/40 	 lr=1.6e-04	 t=297s	loss=0.014	val_loss=0.004 	 dice=0.9666
+Epoch 35/40 	 lr=1.3e-04	 t=300s	loss=0.013	val_loss=0.004 	 dice=0.9628
+Epoch 36/40 	 lr=1.1e-04	 t=288s	loss=0.014	val_loss=0.004 	 dice=0.9648
+Epoch 37/40 	 lr=7.9e-05	 t=310s	loss=0.014	val_loss=0.004 	 dice=0.9629
+Epoch 38/40 	 lr=5.3e-05	 t=300s	loss=0.014	val_loss=0.005 	 dice=0.9624
+Epoch 39/40 	 lr=2.6e-05	 t=297s	loss=0.014	val_loss=0.004 	 dice=0.9649
+Epoch 40/40 	 lr=0.0e+00	 t=295s	loss=0.013	val_loss=0.004 	 dice=0.9679
+
+ -> Saving weights to ../logs/2021-05-06/1/Unet_efficientnet-b1_0.pt
+
+
+    -> Validating 
+
+ - Scored 0.9598 for downscaled image 2f6ecfcdf with threshold 0.40
+ - Scored 0.9528 for downscaled image b2dc8411c with threshold 0.45
+ - Scored 0.9468 for downscaled image 4ef6695ce with threshold 0.45
+
+
+-------------   Fold 2 / 5  -------------
+
+    -> 8757250 trainable parameters
+    -> Validation images : ['8242609fa', '0486052bb', '26dc41664'] 
+
+Epoch 01/40 	 lr=5.0e-04	 t=296s	loss=0.317	val_loss=0.039 	 dice=0.9220
+Epoch 02/40 	 lr=1.0e-03	 t=305s	loss=0.046	val_loss=0.014 	 dice=0.9108
+Epoch 03/40 	 lr=9.7e-04	 t=295s	loss=0.029	val_loss=0.009 	 dice=0.9421
+Epoch 04/40 	 lr=9.5e-04	 t=289s	loss=0.026	val_loss=0.007 	 dice=0.9522
+Epoch 05/40 	 lr=9.2e-04	 t=297s	loss=0.022	val_loss=0.007 	 dice=0.9512
+Epoch 06/40 	 lr=8.9e-04	 t=300s	loss=0.022	val_loss=0.007 	 dice=0.9538
+Epoch 07/40 	 lr=8.7e-04	 t=297s	loss=0.020	val_loss=0.006 	 dice=0.9485
+Epoch 08/40 	 lr=8.4e-04	 t=297s	loss=0.021	val_loss=0.007 	 dice=0.9574
+Epoch 09/40 	 lr=8.2e-04	 t=311s	loss=0.022	val_loss=0.005 	 dice=0.9530
+Epoch 10/40 	 lr=7.9e-04	 t=299s	loss=0.019	val_loss=0.006 	 dice=0.9549
+Epoch 11/40 	 lr=7.6e-04	 t=300s	loss=0.019	val_loss=0.006 	 dice=0.9583
+Epoch 12/40 	 lr=7.4e-04	 t=288s	loss=0.019	val_loss=0.006 	 dice=0.9443
+Epoch 13/40 	 lr=7.1e-04	 t=300s	loss=0.019	val_loss=0.006 	 dice=0.9484
+Epoch 14/40 	 lr=6.8e-04	 t=315s	loss=0.018	val_loss=0.006 	 dice=0.9508
+Epoch 15/40 	 lr=6.6e-04	 t=300s	loss=0.018	val_loss=0.006 	 dice=0.9539
+Epoch 16/40 	 lr=6.3e-04	 t=298s	loss=0.017	val_loss=0.005 	 dice=0.9515
+Epoch 17/40 	 lr=6.1e-04	 t=288s	loss=0.017	val_loss=0.006 	 dice=0.9558
+Epoch 18/40 	 lr=5.8e-04	 t=286s	loss=0.017	val_loss=0.005 	 dice=0.9604
+Epoch 19/40 	 lr=5.5e-04	 t=306s	loss=0.017	val_loss=0.006 	 dice=0.9523
+Epoch 20/40 	 lr=5.3e-04	 t=301s	loss=0.017	val_loss=0.005 	 dice=0.9577
+Epoch 21/40 	 lr=5.0e-04	 t=297s	loss=0.016	val_loss=0.006 	 dice=0.9513
+Epoch 22/40 	 lr=4.7e-04	 t=307s	loss=0.017	val_loss=0.005 	 dice=0.9608
+Epoch 23/40 	 lr=4.5e-04	 t=296s	loss=0.016	val_loss=0.005 	 dice=0.9574
+Epoch 24/40 	 lr=4.2e-04	 t=292s	loss=0.015	val_loss=0.005 	 dice=0.9582
+Epoch 25/40 	 lr=3.9e-04	 t=302s	loss=0.015	val_loss=0.005 	 dice=0.9624
+Epoch 26/40 	 lr=3.7e-04	 t=302s	loss=0.016	val_loss=0.005 	 dice=0.9577
+Epoch 27/40 	 lr=3.4e-04	 t=310s	loss=0.016	val_loss=0.006 	 dice=0.9538
+Epoch 28/40 	 lr=3.2e-04	 t=297s	loss=0.015	val_loss=0.005 	 dice=0.9626
+Epoch 29/40 	 lr=2.9e-04	 t=304s	loss=0.014	val_loss=0.005 	 dice=0.9621
+Epoch 30/40 	 lr=2.6e-04	 t=296s	loss=0.015	val_loss=0.005 	 dice=0.9591
+Epoch 31/40 	 lr=2.4e-04	 t=299s	loss=0.015	val_loss=0.005 	 dice=0.9641
+Epoch 32/40 	 lr=2.1e-04	 t=289s	loss=0.014	val_loss=0.005 	 dice=0.9617
+Epoch 33/40 	 lr=1.8e-04	 t=295s	loss=0.014	val_loss=0.005 	 dice=0.9640
+Epoch 34/40 	 lr=1.6e-04	 t=296s	loss=0.014	val_loss=0.005 	 dice=0.9624
+Epoch 35/40 	 lr=1.3e-04	 t=301s	loss=0.014	val_loss=0.005 	 dice=0.9674
+Epoch 36/40 	 lr=1.1e-04	 t=288s	loss=0.014	val_loss=0.005 	 dice=0.9625
+Epoch 37/40 	 lr=7.9e-05	 t=310s	loss=0.014	val_loss=0.005 	 dice=0.9619
+Epoch 38/40 	 lr=5.3e-05	 t=300s	loss=0.014	val_loss=0.005 	 dice=0.9647
+Epoch 39/40 	 lr=2.6e-05	 t=295s	loss=0.014	val_loss=0.005 	 dice=0.9619
+Epoch 40/40 	 lr=0.0e+00	 t=293s	loss=0.013	val_loss=0.005 	 dice=0.9644
+
+ -> Saving weights to ../logs/2021-05-06/2/Unet_efficientnet-b1_1.pt
+
+
+    -> Validating 
+
+ - Scored 0.9568 for downscaled image 8242609fa with threshold 0.45
+ - Scored 0.9453 for downscaled image 0486052bb with threshold 0.55
+ - Scored 0.9532 for downscaled image 26dc41664 with threshold 0.50
+
+ 
+-------------   Fold 3 / 5  -------------
+
+    -> 8757250 trainable parameters
+    -> Validation images : ['aaa6a05cc', 'e79de561c', 'c68fe75ea'] 
+
+Epoch 01/40 	 lr=5.0e-04	 t=302s	loss=0.315	val_loss=0.045 	 dice=0.7935
+Epoch 02/40 	 lr=1.0e-03	 t=302s	loss=0.044	val_loss=0.024 	 dice=0.7668
+Epoch 03/40 	 lr=9.7e-04	 t=295s	loss=0.030	val_loss=0.029 	 dice=0.7294
+Epoch 04/40 	 lr=9.5e-04	 t=290s	loss=0.025	val_loss=0.013 	 dice=0.9095
+Epoch 05/40 	 lr=9.2e-04	 t=296s	loss=0.025	val_loss=0.015 	 dice=0.9101
+Epoch 06/40 	 lr=8.9e-04	 t=300s	loss=0.022	val_loss=0.014 	 dice=0.8937
+Epoch 07/40 	 lr=8.7e-04	 t=298s	loss=0.020	val_loss=0.012 	 dice=0.9031
+Epoch 08/40 	 lr=8.4e-04	 t=298s	loss=0.020	val_loss=0.011 	 dice=0.8959
+Epoch 09/40 	 lr=8.2e-04	 t=312s	loss=0.020	val_loss=0.011 	 dice=0.9123
+Epoch 10/40 	 lr=7.9e-04	 t=300s	loss=0.019	val_loss=0.013 	 dice=0.8917
+Epoch 11/40 	 lr=7.6e-04	 t=302s	loss=0.018	val_loss=0.012 	 dice=0.9203
+Epoch 12/40 	 lr=7.4e-04	 t=289s	loss=0.018	val_loss=0.011 	 dice=0.9090
+Epoch 13/40 	 lr=7.1e-04	 t=300s	loss=0.017	val_loss=0.011 	 dice=0.9201
+Epoch 14/40 	 lr=6.8e-04	 t=317s	loss=0.016	val_loss=0.012 	 dice=0.8825
+Epoch 15/40 	 lr=6.6e-04	 t=301s	loss=0.017	val_loss=0.012 	 dice=0.9067
+Epoch 16/40 	 lr=6.3e-04	 t=299s	loss=0.016	val_loss=0.012 	 dice=0.9014
+Epoch 17/40 	 lr=6.1e-04	 t=289s	loss=0.017	val_loss=0.011 	 dice=0.9214
+Epoch 18/40 	 lr=5.8e-04	 t=287s	loss=0.016	val_loss=0.010 	 dice=0.9176
+Epoch 19/40 	 lr=5.5e-04	 t=309s	loss=0.016	val_loss=0.011 	 dice=0.9204
+Epoch 20/40 	 lr=5.3e-04	 t=300s	loss=0.015	val_loss=0.010 	 dice=0.9333
+Epoch 21/40 	 lr=5.0e-04	 t=297s	loss=0.016	val_loss=0.011 	 dice=0.9237
+Epoch 22/40 	 lr=4.7e-04	 t=305s	loss=0.015	val_loss=0.011 	 dice=0.9216
+Epoch 23/40 	 lr=4.5e-04	 t=296s	loss=0.016	val_loss=0.010 	 dice=0.9068
+Epoch 24/40 	 lr=4.2e-04	 t=292s	loss=0.014	val_loss=0.013 	 dice=0.9186
+Epoch 25/40 	 lr=3.9e-04	 t=304s	loss=0.016	val_loss=0.011 	 dice=0.9243
+Epoch 26/40 	 lr=3.7e-04	 t=302s	loss=0.015	val_loss=0.011 	 dice=0.9209
+Epoch 27/40 	 lr=3.4e-04	 t=310s	loss=0.015	val_loss=0.010 	 dice=0.9208
+Epoch 28/40 	 lr=3.2e-04	 t=299s	loss=0.014	val_loss=0.012 	 dice=0.9181
+Epoch 29/40 	 lr=2.9e-04	 t=305s	loss=0.015	val_loss=0.011 	 dice=0.9246
+Epoch 30/40 	 lr=2.6e-04	 t=296s	loss=0.014	val_loss=0.010 	 dice=0.9335
+Epoch 31/40 	 lr=2.4e-04	 t=299s	loss=0.014	val_loss=0.011 	 dice=0.9325
+Epoch 32/40 	 lr=2.1e-04	 t=289s	loss=0.014	val_loss=0.011 	 dice=0.9292
+Epoch 33/40 	 lr=1.8e-04	 t=293s	loss=0.013	val_loss=0.010 	 dice=0.9286
+Epoch 34/40 	 lr=1.6e-04	 t=296s	loss=0.013	val_loss=0.009 	 dice=0.9292
+Epoch 35/40 	 lr=1.3e-04	 t=300s	loss=0.013	val_loss=0.010 	 dice=0.9285
+Epoch 36/40 	 lr=1.1e-04	 t=288s	loss=0.013	val_loss=0.010 	 dice=0.9331
+Epoch 37/40 	 lr=7.9e-05	 t=309s	loss=0.013	val_loss=0.010 	 dice=0.9321
+Epoch 38/40 	 lr=5.3e-05	 t=299s	loss=0.013	val_loss=0.010 	 dice=0.9272
+Epoch 39/40 	 lr=2.6e-05	 t=294s	loss=0.013	val_loss=0.010 	 dice=0.9354
+Epoch 40/40 	 lr=0.0e+00	 t=292s	loss=0.013	val_loss=0.010 	 dice=0.9305
+
+ -> Saving weights to ../logs/2021-05-06/4/Unet_efficientnet-b1_2.pt
+
+
+    -> Validating 
+
+ - Scored 0.9268 for downscaled image aaa6a05cc with threshold 0.40
+ - Scored 0.9493 for downscaled image e79de561c with threshold 0.65
+ - Scored 0.8815 for downscaled image c68fe75ea with threshold 0.65
+
+-------------   Fold 4 / 5  -------------
+
+    -> 8757250 trainable parameters
+    -> Validation images : ['cb2d976f4', '095bf7a1f', 'afa5e8098'] 
+
+Epoch 01/40 	 lr=5.0e-04	 t=295s	loss=0.313	val_loss=0.050 	 dice=0.8534
+Epoch 02/40 	 lr=1.0e-03	 t=302s	loss=0.044	val_loss=0.017 	 dice=0.9255
+Epoch 03/40 	 lr=9.7e-04	 t=296s	loss=0.029	val_loss=0.014 	 dice=0.9213
+Epoch 04/40 	 lr=9.5e-04	 t=290s	loss=0.025	val_loss=0.012 	 dice=0.9263
+Epoch 05/40 	 lr=9.2e-04	 t=297s	loss=0.022	val_loss=0.009 	 dice=0.9331
+Epoch 06/40 	 lr=8.9e-04	 t=300s	loss=0.022	val_loss=0.010 	 dice=0.9394
+Epoch 07/40 	 lr=8.7e-04	 t=298s	loss=0.019	val_loss=0.010 	 dice=0.9432
+Epoch 08/40 	 lr=8.4e-04	 t=297s	loss=0.020	val_loss=0.010 	 dice=0.9383
+Epoch 09/40 	 lr=8.2e-04	 t=312s	loss=0.019	val_loss=0.010 	 dice=0.9446
+Epoch 10/40 	 lr=7.9e-04	 t=301s	loss=0.017	val_loss=0.009 	 dice=0.9506
+Epoch 11/40 	 lr=7.6e-04	 t=302s	loss=0.018	val_loss=0.011 	 dice=0.9327
+Epoch 12/40 	 lr=7.4e-04	 t=288s	loss=0.019	val_loss=0.010 	 dice=0.9435
+Epoch 13/40 	 lr=7.1e-04	 t=300s	loss=0.017	val_loss=0.009 	 dice=0.9385
+Epoch 14/40 	 lr=6.8e-04	 t=318s	loss=0.017	val_loss=0.008 	 dice=0.9501
+Epoch 15/40 	 lr=6.6e-04	 t=300s	loss=0.017	val_loss=0.008 	 dice=0.9490
+Epoch 16/40 	 lr=6.3e-04	 t=299s	loss=0.017	val_loss=0.009 	 dice=0.9351
+Epoch 17/40 	 lr=6.1e-04	 t=289s	loss=0.017	val_loss=0.008 	 dice=0.9566
+Epoch 18/40 	 lr=5.8e-04	 t=287s	loss=0.017	val_loss=0.007 	 dice=0.9504
+Epoch 19/40 	 lr=5.5e-04	 t=307s	loss=0.016	val_loss=0.010 	 dice=0.9395
+Epoch 20/40 	 lr=5.3e-04	 t=300s	loss=0.017	val_loss=0.007 	 dice=0.9538
+Epoch 21/40 	 lr=5.0e-04	 t=297s	loss=0.016	val_loss=0.009 	 dice=0.9558
+Epoch 22/40 	 lr=4.7e-04	 t=306s	loss=0.015	val_loss=0.008 	 dice=0.9519
+Epoch 23/40 	 lr=4.5e-04	 t=297s	loss=0.016	val_loss=0.007 	 dice=0.9506
+Epoch 24/40 	 lr=4.2e-04	 t=293s	loss=0.015	val_loss=0.008 	 dice=0.9567
+Epoch 25/40 	 lr=3.9e-04	 t=302s	loss=0.014	val_loss=0.008 	 dice=0.9563
+Epoch 26/40 	 lr=3.7e-04	 t=303s	loss=0.015	val_loss=0.007 	 dice=0.9502
+Epoch 27/40 	 lr=3.4e-04	 t=311s	loss=0.015	val_loss=0.008 	 dice=0.9594
+Epoch 28/40 	 lr=3.2e-04	 t=299s	loss=0.014	val_loss=0.007 	 dice=0.9613
+Epoch 29/40 	 lr=2.9e-04	 t=305s	loss=0.014	val_loss=0.007 	 dice=0.9553
+Epoch 30/40 	 lr=2.6e-04	 t=295s	loss=0.014	val_loss=0.007 	 dice=0.9554
+Epoch 31/40 	 lr=2.4e-04	 t=299s	loss=0.013	val_loss=0.008 	 dice=0.9596
+Epoch 32/40 	 lr=2.1e-04	 t=289s	loss=0.016	val_loss=0.009 	 dice=0.9537
+Epoch 33/40 	 lr=1.8e-04	 t=294s	loss=0.014	val_loss=0.008 	 dice=0.9587
+Epoch 34/40 	 lr=1.6e-04	 t=296s	loss=0.013	val_loss=0.007 	 dice=0.9574
+Epoch 35/40 	 lr=1.3e-04	 t=300s	loss=0.013	val_loss=0.007 	 dice=0.9635
+Epoch 36/40 	 lr=1.1e-04	 t=288s	loss=0.013	val_loss=0.009 	 dice=0.9545
+Epoch 37/40 	 lr=7.9e-05	 t=310s	loss=0.013	val_loss=0.007 	 dice=0.9590
+Epoch 38/40 	 lr=5.3e-05	 t=300s	loss=0.013	val_loss=0.007 	 dice=0.9599
+Epoch 39/40 	 lr=2.6e-05	 t=295s	loss=0.013	val_loss=0.006 	 dice=0.9603
+Epoch 40/40 	 lr=0.0e+00	 t=293s	loss=0.013	val_loss=0.007 	 dice=0.9583
+
+ -> Saving weights to ../logs/2021-05-06/4/Unet_efficientnet-b1_3.pt
+
+
+    -> Validating 
+
+ - Scored 0.9509 for downscaled image cb2d976f4 with threshold 0.50
+ - Scored 0.9400 for downscaled image 095bf7a1f with threshold 0.50
+ - Scored 0.9338 for downscaled image afa5e8098 with threshold 0.40
+
+-------------   Fold 5 / 5  -------------
+
+    -> 8757250 trainable parameters
+    -> Validation images : ['b9a3865fc', '54f2eec69', '1e2425f28'] 
+
+Epoch 01/40 	 lr=5.0e-04	 t=296s	loss=0.318	val_loss=0.048 	 dice=0.7638
+Epoch 02/40 	 lr=1.0e-03	 t=303s	loss=0.045	val_loss=0.017 	 dice=0.9160
+Epoch 03/40 	 lr=9.7e-04	 t=296s	loss=0.029	val_loss=0.013 	 dice=0.9067
+Epoch 04/40 	 lr=9.5e-04	 t=291s	loss=0.026	val_loss=0.014 	 dice=0.8900
+Epoch 05/40 	 lr=9.2e-04	 t=298s	loss=0.023	val_loss=0.009 	 dice=0.9483
+Epoch 06/40 	 lr=8.9e-04	 t=302s	loss=0.021	val_loss=0.008 	 dice=0.9410
+Epoch 07/40 	 lr=8.7e-04	 t=298s	loss=0.020	val_loss=0.009 	 dice=0.9403
+Epoch 08/40 	 lr=8.4e-04	 t=298s	loss=0.019	val_loss=0.009 	 dice=0.9402
+Epoch 09/40 	 lr=8.2e-04	 t=312s	loss=0.020	val_loss=0.009 	 dice=0.9434
+Epoch 10/40 	 lr=7.9e-04	 t=301s	loss=0.018	val_loss=0.009 	 dice=0.9423
+Epoch 11/40 	 lr=7.6e-04	 t=302s	loss=0.019	val_loss=0.008 	 dice=0.9452
+Epoch 12/40 	 lr=7.4e-04	 t=289s	loss=0.020	val_loss=0.009 	 dice=0.9410
+Epoch 13/40 	 lr=7.1e-04	 t=301s	loss=0.017	val_loss=0.008 	 dice=0.9451
+Epoch 14/40 	 lr=6.8e-04	 t=317s	loss=0.018	val_loss=0.009 	 dice=0.9445
+Epoch 15/40 	 lr=6.6e-04	 t=300s	loss=0.017	val_loss=0.008 	 dice=0.9472
+Epoch 16/40 	 lr=6.3e-04	 t=299s	loss=0.016	val_loss=0.008 	 dice=0.9476
+Epoch 17/40 	 lr=6.1e-04	 t=289s	loss=0.016	val_loss=0.008 	 dice=0.9532
+Epoch 18/40 	 lr=5.8e-04	 t=288s	loss=0.016	val_loss=0.008 	 dice=0.9472
+Epoch 19/40 	 lr=5.5e-04	 t=307s	loss=0.016	val_loss=0.008 	 dice=0.9441
+Epoch 20/40 	 lr=5.3e-04	 t=302s	loss=0.016	val_loss=0.008 	 dice=0.9425
+Epoch 21/40 	 lr=5.0e-04	 t=297s	loss=0.015	val_loss=0.007 	 dice=0.9555
+Epoch 22/40 	 lr=4.7e-04	 t=307s	loss=0.016	val_loss=0.008 	 dice=0.9535
+Epoch 23/40 	 lr=4.5e-04	 t=296s	loss=0.016	val_loss=0.009 	 dice=0.9401
+Epoch 24/40 	 lr=4.2e-04	 t=292s	loss=0.015	val_loss=0.009 	 dice=0.9450
+Epoch 25/40 	 lr=3.9e-04	 t=303s	loss=0.015	val_loss=0.008 	 dice=0.9500
+Epoch 26/40 	 lr=3.7e-04	 t=303s	loss=0.016	val_loss=0.009 	 dice=0.9483
+Epoch 27/40 	 lr=3.4e-04	 t=312s	loss=0.014	val_loss=0.008 	 dice=0.9510
+Epoch 28/40 	 lr=3.2e-04	 t=299s	loss=0.014	val_loss=0.007 	 dice=0.9518
+Epoch 29/40 	 lr=2.9e-04	 t=305s	loss=0.015	val_loss=0.007 	 dice=0.9525
+Epoch 30/40 	 lr=2.6e-04	 t=297s	loss=0.014	val_loss=0.007 	 dice=0.9565
+Epoch 31/40 	 lr=2.4e-04	 t=300s	loss=0.015	val_loss=0.008 	 dice=0.9560
+Epoch 32/40 	 lr=2.1e-04	 t=288s	loss=0.014	val_loss=0.008 	 dice=0.9446
+Epoch 33/40 	 lr=1.8e-04	 t=294s	loss=0.014	val_loss=0.008 	 dice=0.9432
+Epoch 34/40 	 lr=1.6e-04	 t=297s	loss=0.014	val_loss=0.008 	 dice=0.9540
+Epoch 35/40 	 lr=1.3e-04	 t=300s	loss=0.014	val_loss=0.007 	 dice=0.9543
+Epoch 36/40 	 lr=1.1e-04	 t=289s	loss=0.013	val_loss=0.007 	 dice=0.9563
+Epoch 37/40 	 lr=7.9e-05	 t=310s	loss=0.014	val_loss=0.007 	 dice=0.9523
+Epoch 38/40 	 lr=5.3e-05	 t=300s	loss=0.013	val_loss=0.008 	 dice=0.9553
+Epoch 39/40 	 lr=2.6e-05	 t=294s	loss=0.013	val_loss=0.008 	 dice=0.9488
+Epoch 40/40 	 lr=0.0e+00	 t=294s	loss=0.013	val_loss=0.007 	 dice=0.9528
+
+ -> Saving weights to ../logs/2021-05-06/4/Unet_efficientnet-b1_4.pt
+
+
+    -> Validating 
+
+ - Scored 0.9477 for downscaled image b9a3865fc with threshold 0.65
+ - Scored 0.9357 for downscaled image 54f2eec69 with threshold 0.55
+ - Scored 0.9402 for downscaled image 1e2425f28 with threshold 0.60
+
+
+  ->  Dice CV : ???????
