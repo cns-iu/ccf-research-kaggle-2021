@@ -1,0 +1,74 @@
+INPUTS: input
+OUTPUTS: output
+
+DATA:
+  TRAIN:
+    FOLDS: [
+        ['train_C0_33',  'grid_C0_33'],
+        ['train_C1_33',  'grid_C1_33'],
+        ['train_C2_33',  'grid_C2_33'],
+        ['train_C3_33',  'grid_C3_33']]
+    GPU_PRELOAD: False
+    PRELOAD: False
+    CACHE: False
+    MULTIPLY: {'rate':1}
+  VALID:
+    FOLDS: [
+        ['val_C0_33' ],
+        ['val_C1_33' ],
+        ['val_C2_33' ],
+        ['val_C3_33' ]]
+    PRELOAD: False
+  SSL:
+    DATASETS: []
+    PRELOAD: False
+  TEST:
+    DATASETS: []
+
+TRANSFORMERS:
+  TRAIN:
+    AUG: 'light_scale'
+  VALID:
+    AUG: 'val'
+  SSL:
+    AUG: 'ssl'
+  TEST:
+    AUG: 'test'
+  CROP: [512,512]
+  #CROP: [1024,1024]
+  CROP_VAL: [512,512]
+  RESIZE: [256,256]
+  MEAN:
+  - 0.6226
+  - 0.4284
+  - 0.6705
+  STD:
+  - 0.1246
+  - 0.1719
+  - 0.0956
+
+TRAIN:
+  LRS: [0.00001, 0.0004, 0.000015, 2]
+  DOWNSCALE: 2
+  NUM_FOLDS: 4
+  SELECTIVE_BP: 1.
+  HARD_MULT: 1
+  EMA: 0.995
+  INIT_MODEL: 'output/models8/Unet_timm-regnety_016'
+  #INIT_ENCODER: []
+  FREEZE_ENCODER: False
+  AMP: True
+  GPUS: [0]
+  NUM_WORKERS: 1
+  SAVE_STEP: 1.
+  SCALAR_STEP: 1
+  TB_STEP: 2
+  EPOCH_COUNT: 5
+  BATCH_SIZE: 8
+VALID:
+  STEP: 2
+  BATCH_SIZE: 8
+TEST:
+  BATCH_SIZE: 1
+PARALLEL:
+  DDP: False
