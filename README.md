@@ -30,3 +30,14 @@ The repo is structured in the following way:
 ├── images
 ├── supporting-information
 ```
+
+## Models
+
+The repository contains 5 models:
+1. Tom (1st prize)
+2. Gleb (2nd prize)
+3. Whats goin on (3rd prize)
+4. Deeplive.exe (1st Judges prize)
+5. Deepflash2 (2nd Judges prize)
+
+
