@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/cns-iu/ccf-research-kaggle-2020">
-    <img src="images/cns-logo-1.png" alt="Logo">
+    <img src="images/cns-logo.png" alt="Logo">
   </a>
 
   <h3 align="center">Common Coordinate Framework (CCF) Research on Generalizable Functional Tissue Units (FTU) Segmentation</h3>
