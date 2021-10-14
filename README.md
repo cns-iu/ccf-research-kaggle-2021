@@ -13,8 +13,10 @@
   </p>
 </p>
 
+___This repository contains all the code for the paper "Robust and generalizable segmentation of human functional tissue units".___
+
 # Generalizable Functional Tissue Units (FTU) Segmentation
-The Human BioMolecular Atlas Program (HuBMAP) is working to catalyze the development of a framework for mapping the human body at a level of glomeruli functional tissue units for the first time in history. HuBMAP aims to be an open map of the human body at the cellular levelD.  Link to the kaggle competition - https://www.kaggle.com/c/hubmap-kidney-segmentation
+The Human BioMolecular Atlas Program aims to compile a reference atlas for the healthy human adult body at the cellular level. Functional tissue units (FTU, e.g., renal glomeruli and colonic crypts) are of pathobiological significance and relevant for modeling and understanding disease progression. Yet, annotation of FTUs is time consuming and expensive when done manually and existing algorithms achieve low accuracy and do not generalize well. This paper compares the five winning algorithms from the “Hacking the Kidney” Kaggle competition to which more than a thousand teams from sixty countries contributed. We compare the accuracy and performance of the algorithms on a large-scale renal glomerulus Periodic acid-Schiff stain dataset and their generalizability to a colonic crypts hematoxylin and eosin stain dataset. Results help to characterize how the number of FTUs per unit area differs in relationship to their position in kidney and colon with respect to age, sex, BMI, and other clinical data and are relevant for advancing pathology, anatomy, and surgery.
 
 The repo is structured in the following way:
 ```
