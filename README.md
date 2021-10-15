@@ -8,12 +8,12 @@
   <h3 align="center">Common Coordinate Framework (CCF) Research on Generalizable Functional Tissue Units (FTU) Segmentation</h3>
 
   <p align="center">
-    Based on HuBMAP Hacking The Kidney Competition (Kaggle 2020)
+    Based on HuBMAP Hacking The Kidney Competition (Kaggle 2021)
     <br />
   </p>
 </p>
 
-___This repository contains all the code for the paper "Robust and generalizable segmentation of human functional tissue units".___
+___This repository contains all code for the paper "Robust and generalizable segmentation of human functional tissue units".___
 
 # Generalizable Functional Tissue Units (FTU) Segmentation
 The Human BioMolecular Atlas Program aims to compile a reference atlas for the healthy human adult body at the cellular level. Functional tissue units (FTU, e.g., renal glomeruli and colonic crypts) are of pathobiological significance and relevant for modeling and understanding disease progression. Yet, annotation of FTUs is time consuming and expensive when done manually and existing algorithms achieve low accuracy and do not generalize well. This paper compares the five winning algorithms from the “[Hacking the Kidney](https://www.kaggle.com/c/hubmap-kidney-segmentation)” Kaggle competition to which more than a thousand teams from sixty countries contributed. We compare the accuracy and performance of the algorithms on a large-scale renal glomerulus Periodic acid-Schiff stain dataset and their generalizability to a colonic crypts hematoxylin and eosin stain dataset. Results help to characterize how the number of FTUs per unit area differs in relationship to their position in kidney and colon with respect to age, sex, BMI, and other clinical data and are relevant for advancing pathology, anatomy, and surgery.
