@@ -13,7 +13,6 @@
       border: none;
       height: 1px;
       background-color: rgb(88, 88, 88);
-      /* Modern Browsers */
     }
   </style>
 </head>
@@ -35,8 +34,11 @@
           <a target="_blank" href="https://cns-iu.github.io/hubmap-2021-kaggle-blocks/">Link to
             EUI web component</a>
         </ol>
-        <iframe width="100%" height="600" src="https://cns-iu.github.io/hubmap-2021-kaggle-blocks/"
-          frameborder="0"></iframe>
+        <ol>
+          <button type="button" class="btn btn-primary"
+            onClick='document.getElementById("eui").src="https://cns-iu.github.io/hubmap-2021-kaggle-blocks/";'>Load</button>
+        </ol>
+        <iframe id="eui" width="100%" height="600" src="Images/eui__preview.jpg" frameborder="0"></iframe>
       </div>
     </div>
     <hr>
@@ -51,8 +53,11 @@
             right. DICE coefficient (top left). Recall performance (top right). Precision performance (buttom right).
           </p>
         </ol>
-        <iframe width="100%" height="600" src="https://juyingnan.github.io/tempio/html/kaggle_violin.html"
-          frameborder="0"></iframe>
+        <ol>
+          <button type="button" class="btn btn-primary"
+            onClick='document.getElementById("violin").src="https://juyingnan.github.io/tempio/html/kaggle_violin.html";'>Load</button>
+        </ol>
+        <iframe id="violin" width="100%" height="600" src="Images/violin_preview.jpg" frameborder="0"></iframe>
       </div>
     </div>
     <hr>
@@ -62,9 +67,12 @@
         <ol> <a target="_blank" href="https://juyingnan.github.io/tempio/html/CL_HandE_1234_B004_bottomleft.html">
             Link to interactive comparison #1</a>
         </ol>
+        <ol>
+          <button type="button" class="btn btn-primary"
+            onClick='document.getElementById("inter1").src="https://juyingnan.github.io/tempio/html/CL_HandE_1234_B004_bottomleft.html";'>Load</button>
+        </ol>
       </div>
-      <iframe width="100%" height="600" src="https://juyingnan.github.io/tempio/html/CL_HandE_1234_B004_bottomleft.html"
-        frameborder="0"></iframe>
+      <iframe id="inter1" width="100%" height="600" src="Images/inter1_preview.jpg" frameborder="0"></iframe>
     </div>
     <hr>
 
@@ -72,8 +80,11 @@
       <div class="col-12">
         <ol><a target="_blank" href="https://juyingnan.github.io/tempio/html/HandE_B005_CL_b_RGB_bottomleft.html">
             Link to interactive comparison #2</a></ol>
-        <iframe width="100%" height="600"
-          src="https://juyingnan.github.io/tempio/html/HandE_B005_CL_b_RGB_bottomleft.html" frameborder="0"></iframe>
+        <ol>
+          <button type="button" class="btn btn-primary"
+            onClick='document.getElementById("inter2").src="https://juyingnan.github.io/tempio/html/HandE_B005_CL_b_RGB_bottomleft.html";'>Load</button>
+        </ol>
+        <iframe id="inter2" width="100%" height="600" src="Images/inter2_preview.jpg" frameborder="0"></iframe>
       </div>
     </div>
 </body>
