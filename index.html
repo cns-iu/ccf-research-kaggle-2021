@@ -11,43 +11,61 @@
   <style>
     hr {
       border: none;
-      height: 1px;
-      background-color: rgb(88, 88, 88);
+      height: 2px;
+      background-color: rgb(0, 0, 0);
+    }
+
+    ul.no-bullets {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    h1 {
+      margin-top: 30px;
+    }
+
+    h1, h4, p, li, a {
+      font-family: Arial, sans-serif;
     }
   </style>
 </head>
 
 <body>
   <div class="container">
-
+    <div class="row">
+      <p></p>
+    </div>
     <div class="row">
       <div class="col">
         <h1>Companion Website for “Robust and generalizable segmentation of human functional tissue units”</h1>
-        <h4>Authors</h4>
+        <p></p>
         <p>Leah L. Godwin<sup>1*</sup>, Yingnan Ju<sup>1</sup>, Naveksha Sood<sup>1</sup>, Yashvardhan Jain<sup>1</sup>,
           Ellen M. Quardokus<sup>1</sup>, Andreas Bueckle<sup>1</sup>, Teri Longacre<sup>2</sup>, Aaron
           Horning<sup>3</sup>, Yiing Lin<sup>4</sup>, Edward D. Esplin<sup>5</sup>, John W. Hickey<sup>6</sup>, Michael
           P. Snyder<sup>5</sup>, N. Heath Patterson<sup>7</sup>, Jeffrey M. Spraggins<sup>7</sup>, Katy
           Börner<sup>1*</sup></p>
-        <p><sup>1</sup> Department of Intelligent Systems Engineering, Luddy School of Informatics, Computing, and
-          Engineering,
-          Indiana University, Bloomington, IN 47408, USA</p>
-        <p><sup>2</sup> Department of Pathology, Stanford University School of Medicine, Stanford, CA 94305, USA</p>
-        <p><sup>3</sup> Thermo Fisher Scientific, South San Francisco, CA 94080, USA</p>
-        <p><sup>4</sup> Department of Surgery, Washington University School of Medicine, St. Louis, MO 63110, USA
-        </p>
-        <p><sup>5</sup> Department of Genetics, Stanford University School of Medicine, Stanford, CA 94305, USA</p>
-        <p><sup>6</sup> Department of Microbiology & Immunology, Stanford University School of Medicine, Stanford,
-          CA 94305, USA
-        </p>
-        <p><sup>7</sup> Mass Spectrometry Research Center, Vanderbilt University, Nashville, TN 37232, USA</p>
+
+        <ul class="no-bullets">
+          <li><sup>1</sup> Department of Intelligent Systems Engineering, Luddy School of Informatics, Computing, and
+            Engineering,
+            Indiana University, Bloomington, IN 47408, USA</li>
+          <li><sup>2</sup> Department of Pathology, Stanford University School of Medicine, Stanford, CA 94305, USA</li>
+          <li><sup>3</sup> Thermo Fisher Scientific, South San Francisco, CA 94080, USA</li>
+          <li><sup>4</sup> Department of Surgery, Washington University School of Medicine, St. Louis, MO 63110, USA
+          </li>
+          <li><sup>5</sup> Department of Genetics, Stanford University School of Medicine, Stanford, CA 94305, USA</li>
+          <li><sup>6</sup> Department of Microbiology & Immunology, Stanford University School of Medicine, Stanford,
+            CA 94305, USA</li>
+          <li><sup>7</sup> Mass Spectrometry Research Center, Vanderbilt University, Nashville, TN 37232, USA</li>
+        </ul>
       </div>
     </div>
     <hr>
 
     <div class="row">
       <div class="col">
-        <p> <a target="_blank" href="#">Link to paper on biorXiv</a> (ADD LINK WHEN UPLOADED TO BIORXIV!))</p>
+        <p> <a target="_blank" href="#">Link to paper on bioRxiv</a> (ADD LINK WHEN UPLOADED TO BIORXIV!))</p>
         <p><a target="_blank" href="https://github.com/cns-iu/ccf-research-kaggle-2021">Link to code on GitHub</a></p>
       </div>
     </div>
@@ -64,9 +82,7 @@
           <li><b>Select an organ</b>: One can navigate available organs by selecting them from the carousel above the
             stage
             or using the ontology on the left.</li>
-          <li><b>Filter</b>: Above the Search is the Filter icon which opens a flyout with many options (e.g.
-            Sex, Assay</li>
-          Types, etc) for refining what tissue data is presented.</li>
+          <li><b>Filter</b>: Above the Search is the Filter icon which opens a flyout with many options (e.g. Sex, Assay Types, etc) for refining what tissue data is presented.</li>
           <li> <b>Registered Blocks</b>: It is possible to select a block of tissue samples either using the bodies on
             stage or the cards in the right column. Color coding helps to identify different selections.</li>
           <li><b>Data</b>: Using the cards in the right column, click on items to dig deeper into the data.</li>
@@ -74,15 +90,14 @@
 
       </div>
     </div>
-    <hr>
 
     <div class="row">
       <div class="col-12">
-        <p><a target="_blank" href="https://cns-iu.github.io/hubmap-2021-kaggle-blocks/">Link to
-            EUI web component</a></p>
         <button type="button" class="btn btn-primary"
-          onClick='document.getElementById("eui").src="https://cns-iu.github.io/hubmap-2021-kaggle-blocks/";'>Load</button>
-        <iframe id="eui" width="100%" height="600" src="Images/eui__preview.jpg" frameborder="0"></iframe>
+          onClick='document.getElementById("eui").src="https://cns-iu.github.io/hubmap-2021-kaggle-blocks/";document.getElementById("eui").height="600";'>Load</button>
+        <iframe id="eui" width="100%" height="395" src="Images/eui__preview.jpg" frameborder="0"></iframe>
+        <p><a target="_blank" href="https://cns-iu.github.io/hubmap-2021-kaggle-blocks/">External link to
+            EUI web component</a></p>
       </div>
     </div>
     <hr>
@@ -94,35 +109,35 @@
           section HBM462.JKCN.863 has 124 and HBM438.JXJW.249 has 36 crypts in the ground truth (GT) given in yellow.
           See legend in top right for color coding used for segmentation masks predicted by the five winning algorithms.
           For number of FTUs in solutions predicted by the five algorithms, see Supplementary Table 5. Algorithm
-          performance.
+          performance.</p>
 
-          Turn on and off different segmentations masks via selection of algorithms in legend. Hover over segmentations
-          in tissue viewer to see WSI data without occlusion. Zoom in by xxx
+        <p>Turn on and off different segmentations masks via selection of algorithms in legend. Hover over segmentations
+          in tissue viewer to see WSI data without occlusion. Zoom in by xxx <b>(UPDATE)</b>
         </p>
       </div>
     </div>
     <div class="row">
       <div class="col-12">
         <p><a target="_blank" href="https://juyingnan.github.io/tempio/html/CL_HandE_1234_B004_bottomleft.html">
-            Link to interactive comparison #1</a></p>
+            External link to interactive comparison #1</a></p>
 
         <button type="button" class="btn btn-primary"
           onClick='document.getElementById("inter1").src="https://juyingnan.github.io/tempio/html/CL_HandE_1234_B004_bottomleft.html";'>Load</button>
 
       </div>
-      <iframe id="inter1" width="100%" height="600" src="Images/inter1_preview.jpg" frameborder="0"></iframe>
+      <iframe id="inter1" width="100%" height="488" src="Images/inter1_preview.jpg" frameborder="0"></iframe>
     </div>
     <hr>
 
     <div class="row">
       <div class="col-12">
         <p><a target="_blank" href="https://juyingnan.github.io/tempio/html/HandE_B005_CL_b_RGB_bottomleft.html">
-            Link to interactive comparison #2</a></p>
+            External link to interactive comparison #2</a></p>
 
         <button type="button" class="btn btn-primary"
           onClick='document.getElementById("inter2").src="https://juyingnan.github.io/tempio/html/HandE_B005_CL_b_RGB_bottomleft.html";'>Load</button>
 
-        <iframe id="inter2" width="100%" height="600" src="Images/inter2_preview.jpg" frameborder="0"></iframe>
+        <iframe id="inter2" width="100%" height="512" src="Images/inter2_preview.jpg" frameborder="0"></iframe>
       </div>
     </div>
     <hr>
@@ -142,8 +157,8 @@
         </p>
         <button type="button" class="btn btn-primary"
           onClick='document.getElementById("violin").src="https://juyingnan.github.io/tempio/html/kaggle_violin.html";'>Load</button>
-        <iframe id="violin" width="100%" height="600" src="Images/violin_preview.jpg" frameborder="0"></iframe>
-        <p><a target="_blank" href="https://juyingnan.github.io/tempio/html/kaggle_violin.html">Link to Yingnan’s Kaggle
+        <iframe id="violin" width="100%" height="395" src="Images/violin_preview.jpg" frameborder="0"></iframe>
+        <p><a target="_blank" href="https://juyingnan.github.io/tempio/html/kaggle_violin.html">External link to Kaggle
             violin plots</a></p>
       </div>
     </div>
