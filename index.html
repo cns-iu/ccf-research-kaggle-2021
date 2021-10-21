@@ -11,8 +11,8 @@
   <style>
     hr {
       border: none;
-      height: 2px;
-      background-color: rgb(0, 0, 0);
+      border-top: thin solid;
+      background-color: rgb(66, 66, 66);
     }
 
     ul.no-bullets {
@@ -104,9 +104,9 @@
           <li> <b>Registered Blocks</b>: It is possible to select a block of tissue samples either using the bodies on
             stage or the cards in the right column. Color coding helps to identify different selections.</li>
           <li><b>Data</b>: Using the cards in the right column, click on items to dig deeper into the data. <b>You can
-            watch a tutorial on how to use the EUI <a target="_blank"
-              href="https://www.youtube.com/watch?v=YAHJqvD3Q_8">here</a></b>.
-              </li>
+              watch a tutorial on how to use the EUI <a target="_blank"
+                href="https://www.youtube.com/watch?v=YAHJqvD3Q_8">here</a></b>.
+          </li>
         </ul>
 
       </div>
@@ -114,15 +114,16 @@
 
     <div class="row">
       <div class="col-12">
+        <p><a target="_blank" href="https://cns-iu.github.io/hubmap-2021-kaggle-blocks/">External link to
+            EUI web component</a></p>
         <button type="button" class="btn btn-primary"
           onClick="showIframe('eui', 'https://cns-iu.github.io/hubmap-2021-kaggle-blocks/')">Load</button>
         <span id="eui-message" class="hidden">Please visit <a target="_blank"
             href="https://cns-iu.github.io/hubmap-2021-kaggle-blocks/">https://cns-iu.github.io/hubmap-2021-kaggle-blocks/</a>
           to explore the tissue blocks in a separate tab.
-        </p>
+        </span>
         <iframe id="eui" width="100%" height="395" src="Images/eui__preview.jpg" frameborder="0"></iframe>
-        <p><a target="_blank" href="https://cns-iu.github.io/hubmap-2021-kaggle-blocks/">External link to
-            EUI web component</a></p>
+
       </div>
     </div>
     <hr>
@@ -139,7 +140,7 @@
           Performance).</p>
 
         <p>Turn on and off different segmentations masks via selection of algorithms in legend. Hover over segmentations
-          in tissue viewer to see WSI data without occlusion. Zoom in by xxx <b>(UPDATE)</b>
+          in tissue viewer to see WSI data without occlusion.
         </p>
       </div>
     </div>
@@ -153,12 +154,13 @@
         showIframe('inter1', 'https://juyingnan.github.io/tempio/html/CL_HandE_1234_B004_bottomleft.html')">Load</button>
         <span id="inter1-message" class="hidden">Please use your left mouse button or the scroll bars on the bottom and
           right edge of the window below to view other parts of the tissue.</span>
-      </div>
-      <iframe id="inter1" width="100%" height="488" src="Images/inter1_preview.jpg" frameborder="0"></iframe>
-    </div>
-    <hr>
 
-    <div id="inter2-row" class="row">
+        <iframe id="inter1" width="100%" height="488" src="Images/inter1_preview.jpg" frameborder="0"></iframe>
+      </div>
+    </div>
+
+
+    <div id="inter2-row" class="row" style="margin-top: 80px;">
       <div class="col-12">
         <p><a target="_blank" href="https://juyingnan.github.io/tempio/html/HandE_B005_CL_b_RGB_bottomleft.html">
             External link to interactive comparison #2 (HandE_B005_CL_b_RGB_bottomleft: HBM438.JXJW.249)</a></p>
@@ -186,11 +188,12 @@
           and transfer learning (i.e., trained on 15 kidney datasets initially and then trained on five colon
           datasets, then tested on two colon datasets), see Methods section for details.
         </p>
+        <p><a target="_blank" href="https://juyingnan.github.io/tempio/html/kaggle_violin.html">External link to
+            algorithm performance results</a></p>
         <button type="button" class="btn btn-primary"
           onClick='document.getElementById("violin").src="https://juyingnan.github.io/tempio/html/kaggle_violin.html";'>Load</button>
         <iframe id="violin" width="100%" height="395" src="Images/violin_preview.jpg" frameborder="0"></iframe>
-        <p><a target="_blank" href="https://juyingnan.github.io/tempio/html/kaggle_violin.html">External link to Kaggle
-            violin plots</a></p>
+
       </div>
     </div>
 </body>
