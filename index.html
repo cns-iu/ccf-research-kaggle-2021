@@ -131,20 +131,22 @@
       <div class="col">
         <h4>Predicted FTU Segmentations</h4>
         <p>The colon WSI that are used for the prediction task are shown in a tissue viewer interface. The tissue
-          section HBM462.JKCN.863 has 124 and HBM438.JXJW.249 has 36 crypts in the ground truth (GT) given in yellow.
+          section HBM462.JKCN.863 (see <a href="#inter1-row">below</a>) has 124 and HBM438.JXJW.249 (see <a
+            href="#inter2-row">below</a>) has 36 crypts in the ground
+          truth (GT) given in yellow.
           See legend in top right for color coding used for segmentation masks predicted by the five winning algorithms.
-          For number of FTUs in solutions predicted by the five algorithms, see Supplementary Table 5. Algorithm
-          performance.</p>
+          For number of FTUs in solutions predicted by the five algorithms, see Supplementary Table 5 (Algorithm
+          Performance).</p>
 
         <p>Turn on and off different segmentations masks via selection of algorithms in legend. Hover over segmentations
           in tissue viewer to see WSI data without occlusion. Zoom in by xxx <b>(UPDATE)</b>
         </p>
       </div>
     </div>
-    <div class="row">
+    <div id="inter1-row" class="row">
       <div class="col-12">
         <p><a target="_blank" href="https://juyingnan.github.io/tempio/html/CL_HandE_1234_B004_bottomleft.html">
-            External link to interactive comparison #1</a></p>
+            External link to interactive comparison #1 (CL_HandE_1234_bottomleft: HBM462.JKCN.863)</a></p>
 
         <button type="button" class="btn btn-primary"
           onClick="
@@ -156,10 +158,10 @@
     </div>
     <hr>
 
-    <div class="row">
+    <div id="inter2-row" class="row">
       <div class="col-12">
         <p><a target="_blank" href="https://juyingnan.github.io/tempio/html/HandE_B005_CL_b_RGB_bottomleft.html">
-            External link to interactive comparison #2</a></p>
+            External link to interactive comparison #2 (HandE_B005_CL_b_RGB_bottomleft: HBM438.JXJW.249)</a></p>
 
         <button type="button" class="btn btn-primary" onClick="
         showIframe('inter2', 'https://juyingnan.github.io/tempio/html/HandE_B005_CL_b_RGB_bottomleft.html')
