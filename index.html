@@ -25,10 +25,25 @@
       margin-top: 30px;
     }
 
-    h1, h4, p, li, a {
+    body {
       font-family: Arial, sans-serif;
     }
+
+    .hidden {
+      display: none;
+    }
   </style>
+  <script>
+    showIframe = function (id, url) {
+      var iframe = document.getElementById(id);
+      iframe.src = url;
+      iframe.height = 600;
+      var p = document.getElementById(id + "-message");
+      if (p) {
+        p.classList.remove("hidden")
+      }
+    }
+  </script>
 </head>
 
 <body>
@@ -65,8 +80,10 @@
 
     <div class="row">
       <div class="col">
-        <p> <a target="_blank" href="#">Link to paper on bioRxiv</a> (ADD LINK WHEN UPLOADED TO BIORXIV!))</p>
+        <p> <a target="_blank" href="#">Link to paper on bioRxiv (forthcoming)</a></p>
         <p><a target="_blank" href="https://github.com/cns-iu/ccf-research-kaggle-2021">Link to code on GitHub</a></p>
+        <p><a target="_blank" href="https://drive.google.com/drive/u/0/folders/1m_NjuladAGt0iboq_eXHBRwjmkP2w6uc">Link
+            to Trained Analysis Models and Data</a> </p>
       </div>
     </div>
     <hr>
@@ -82,7 +99,8 @@
           <li><b>Select an organ</b>: One can navigate available organs by selecting them from the carousel above the
             stage
             or using the ontology on the left.</li>
-          <li><b>Filter</b>: Above the Search is the Filter icon which opens a flyout with many options (e.g. Sex, Assay Types, etc) for refining what tissue data is presented.</li>
+          <li><b>Filter</b>: Above the Search is the Filter icon which opens a flyout with many options (e.g. Sex, Assay
+            Types, etc) for refining what tissue data is presented.</li>
           <li> <b>Registered Blocks</b>: It is possible to select a block of tissue samples either using the bodies on
             stage or the cards in the right column. Color coding helps to identify different selections.</li>
           <li><b>Data</b>: Using the cards in the right column, click on items to dig deeper into the data.</li>
@@ -94,7 +112,11 @@
     <div class="row">
       <div class="col-12">
         <button type="button" class="btn btn-primary"
-          onClick='document.getElementById("eui").src="https://cns-iu.github.io/hubmap-2021-kaggle-blocks/";document.getElementById("eui").height="600";'>Load</button>
+          onClick="showIframe('eui', 'https://cns-iu.github.io/hubmap-2021-kaggle-blocks/')">Load</button>
+        <span id="eui-message" class="hidden">Please visit <a target="_blank"
+            href="https://cns-iu.github.io/hubmap-2021-kaggle-blocks/">https://cns-iu.github.io/hubmap-2021-kaggle-blocks/</a>
+          to explore the tissue blocks in a separate tab.
+        </p>
         <iframe id="eui" width="100%" height="395" src="Images/eui__preview.jpg" frameborder="0"></iframe>
         <p><a target="_blank" href="https://cns-iu.github.io/hubmap-2021-kaggle-blocks/">External link to
             EUI web component</a></p>
@@ -122,8 +144,10 @@
             External link to interactive comparison #1</a></p>
 
         <button type="button" class="btn btn-primary"
-          onClick='document.getElementById("inter1").src="https://juyingnan.github.io/tempio/html/CL_HandE_1234_B004_bottomleft.html";'>Load</button>
-
+          onClick="
+        showIframe('inter1', 'https://juyingnan.github.io/tempio/html/CL_HandE_1234_B004_bottomleft.html')">Load</button>
+        <span id="inter1-message" class="hidden">Please use your left mouse button or the scroll bars on the bottom and
+          right edge of the window below to view other parts of the tissue.</span>
       </div>
       <iframe id="inter1" width="100%" height="488" src="Images/inter1_preview.jpg" frameborder="0"></iframe>
     </div>
@@ -134,9 +158,11 @@
         <p><a target="_blank" href="https://juyingnan.github.io/tempio/html/HandE_B005_CL_b_RGB_bottomleft.html">
             External link to interactive comparison #2</a></p>
 
-        <button type="button" class="btn btn-primary"
-          onClick='document.getElementById("inter2").src="https://juyingnan.github.io/tempio/html/HandE_B005_CL_b_RGB_bottomleft.html";'>Load</button>
-
+        <button type="button" class="btn btn-primary" onClick="
+        showIframe('inter2', 'https://juyingnan.github.io/tempio/html/HandE_B005_CL_b_RGB_bottomleft.html')
+        ">Load</button>
+        <span id="inter2-message" class="hidden">Please use your left mouse button or the scroll bars on the bottom and
+          right edge of the window below to view other parts of the tissue.</span>
         <iframe id="inter2" width="100%" height="512" src="Images/inter2_preview.jpg" frameborder="0"></iframe>
       </div>
     </div>
@@ -162,7 +188,6 @@
             violin plots</a></p>
       </div>
     </div>
-    <hr>
 </body>
 
 </html>
