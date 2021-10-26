@@ -4,7 +4,6 @@ The Human BioMolecular Atlas Program aims to compile a reference atlas for the h
 
 The repo is structured in the following way:
 ```
-├── images
 ├── models
 │   ├── 1-Tom
 │   └── 2-Gleb
@@ -12,6 +11,7 @@ The repo is structured in the following way:
 │   └── 4-Deeplive.exe
 │   └── 5-Deepflash2
 ├── supporting-information
+├── thumbnails
 ├── utils
 ```
 ## Data
