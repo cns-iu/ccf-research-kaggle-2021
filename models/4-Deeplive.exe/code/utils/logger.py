@@ -67,6 +67,7 @@ def prepare_log_folder(log_path):
     Returns:
         str: Path to the created log folder
     """
+    print (os.getcwd(), log_path)
     today = str(datetime.date.today())
     log_today = f"{log_path}{today}/"
 
