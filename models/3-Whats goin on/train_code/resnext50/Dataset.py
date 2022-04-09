@@ -27,10 +27,10 @@ class HuBMAPDataset(Dataset):
         ids = set(ids[list(kf.split(ids))[fold][0 if train else 1]])
         print(f"number of {'train' if train else 'val'} images is {len(ids)}")
         if include_pl:
-            self.fnames = ['train/'+fname for fname in os.listdir(os.path.join(self.path,'train')) if fname.split('_0')[0] in ids]+\
-            ['test/'+fname for fname in os.listdir(os.path.join(self.path,'test')) if fname.split('_0')[0] in ids]
+            self.fnames = ['train/'+fname for fname in os.listdir(os.path.join(self.path,'train')) if fname.split('_')[0] in ids]+\
+            ['test/'+fname for fname in os.listdir(os.path.join(self.path,'test')) if fname.split('_')[0] in ids]
         else:
-            self.fnames = ['train/'+fname for fname in os.listdir(os.path.join(self.path,'train')) if fname.split('_0')[0] in ids]
+            self.fnames = ['train/'+fname for fname in os.listdir(os.path.join(self.path,'train')) if fname.split('_')[0] in ids]
         self.train = train
         self.tfms = tfms
 
