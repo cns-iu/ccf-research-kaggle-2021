@@ -1,0 +1,230 @@
+
+Start model fitting <fastai.learner.Learner object at 0x2b9a5a1c1070>
+epoch     train_loss  valid_loss  dice      iou       recall    precision  time
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+0         1.777530    1.925931    0.036872  0.018782  0.207004  0.020239   01:04
+Better model found at epoch 0 with dice value: 0.036872361447947546.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+1         1.667480    1.294873    0.037956  0.019345  0.042283  0.034432   01:04
+Better model found at epoch 1 with dice value: 0.037955774845528825.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+2         1.429088    1.147330    0.513177  0.345150  0.620358  0.437576   01:06
+Better model found at epoch 2 with dice value: 0.5131766938856386.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+3         1.185790    1.072181    0.647240  0.478459  0.734071  0.578778   01:06
+Better model found at epoch 3 with dice value: 0.6472402696649197.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+4         0.969121    0.888330    0.698286  0.536436  0.792920  0.623832   01:04
+Better model found at epoch 4 with dice value: 0.698285815791811.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+5         0.798793    0.784581    0.712181  0.553013  0.776506  0.657697   01:06
+Better model found at epoch 5 with dice value: 0.7121805137217947.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+6         0.671191    0.740499    0.703725  0.542882  0.851630  0.599592   01:05
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+7         0.572603    0.686669    0.720905  0.563605  0.815864  0.645746   01:06
+Better model found at epoch 7 with dice value: 0.7209049743512624.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+8         0.501511    0.676064    0.723565  0.566864  0.800421  0.660175   01:06
+Better model found at epoch 8 with dice value: 0.723564773925183.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+9         0.450969    0.673867    0.725582  0.569344  0.801720  0.662651   01:05
+Better model found at epoch 9 with dice value: 0.7255820321636592.
+Saving Model
+Model Saved

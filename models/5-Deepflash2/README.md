@@ -30,3 +30,9 @@
 - Use `Deepflash-inference-colon.py` file for inference on the colon data.
 - Use `/utils/Performance Metrics - Kidney.ipynb` to calculate the performance metrics for the model on kidney data.
 - Use `/utils/Performance Metrics - Colon.ipynb` to calculate the performance metrics for the model on colon data.
+
+### Time Analysis 
+Training on Kidney Data
+- Data Preprocessing time => 541.3920302391052 + 585.0695798397064
+- Training time => 
+- Prediction time =>

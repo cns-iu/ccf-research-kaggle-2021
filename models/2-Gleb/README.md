@@ -16,7 +16,11 @@
 - See `train/requirements.txt` and `train/requirements_def.txt` files for detailed list of requirements.
 
 ### Usage
-- Use `SecondWinnerGleb_1_kidney.ipynb` notebook for training and inference on the kidney data.
-- Use `SecondWinnerGleb_4_colon.ipynb` notebook for training and inference on the colon data.
-- Use `/utils/Performance Metrics - Kidney.ipynb` to calculate the performance metrics for the model on kidney data.
-- Use `/utils/Performance Metrics - Colon.ipynb` to calculate the performance metrics for the model on colon data.
+- Save the data in the input folder.
+- Use Inference.py to run inference on a data.
+- Use train folder to train on a dataset as follows: 
+    cd train
+    python src/main.py --cfg src/configs/unet_model_0.yaml
+    python src/main.py --cfg src/configs/unet_model_1.yaml
+    python src/main.py --cfg src/configs/unet_model_2.yaml
+    python src/main.py --cfg src/configs/unet_model_3.yaml

@@ -1,0 +1,137 @@
+wandb_version: 1
+
+ElasticDeformCallback:
+  desc: null
+  value: true
+Learner:
+  desc: null
+  value:
+    _name: <fastai.learner.Learner object at 0x2ba81e247be0>
+    loss_func: "JointLoss(\n  (first): WeightedLoss(\n    (loss): TorchLoss(\n   \
+      \   (loss): DiceLoss()\n    )\n  )\n  (second): WeightedLoss()\n)"
+    lr: 0.001
+    metrics:
+    - <fastai.metrics.Dice object at 0x2ba8161e98e0>
+    - <deepflash2.metrics.Iou object at 0x2ba8161e9a90>
+    - _name: <fastai.metrics.AccumMetric object at 0x2ba8161e9af0>
+      activation: 'no'
+      dim_argmax: -1
+      flatten: true
+      func: sklearn.metrics._classification.recall_score
+      thresh: null
+    - _name: <fastai.metrics.AccumMetric object at 0x2ba8161e9b50>
+      activation: 'no'
+      dim_argmax: -1
+      flatten: true
+      func: sklearn.metrics._classification.precision_score
+      thresh: null
+    model_dir: models
+    moms:
+    - 0.95
+    - 0.85
+    - 0.95
+    opt_func: fastai.optimizer.ranger
+    path: .
+    splitter: fastai.torch_core.trainable_params
+    train_bn: true
+    wd: 0.0001
+    wd_bn_bias: false
+MixedPrecision:
+  desc: null
+  value: true
+ParamScheduler:
+  desc: null
+  value: true
+ProgressCallback:
+  desc: null
+  value: true
+Recorder:
+  desc: null
+  value:
+    add_time: true
+    train_metrics: false
+    valid_metrics: true
+SaveModelCallback:
+  desc: null
+  value:
+    at_end: false
+    every_epoch: false
+    fname: model
+    with_opt: false
+TrainEvalCallback:
+  desc: null
+  value: true
+WandbCallback:
+  desc: null
+  value:
+    dataset_name: null
+    log: gradients
+    log_dataset: false
+    log_model: false
+    log_preds: false
+    n_preds: 36
+    reorder: true
+    seed: 12345
+    valid_dl: null
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.10
+    framework: fastai
+    is_jupyter_run: false
+    is_kaggle_kernel: true
+    python_version: 3.9.6
+    start_time: 1644326272
+    t:
+      1:
+      - 1
+      - 3
+      - 4
+      - 5
+      2:
+      - 1
+      - 3
+      - 4
+      - 5
+      3:
+      - 1
+      - 13
+      - 16
+      4: 3.9.6
+      5: 0.12.10
+      8:
+      - 2
+      - 5
+batch per epoch:
+  desc: null
+  value: 138
+batch size:
+  desc: null
+  value: 32
+device:
+  desc: null
+  value: cuda
+frozen:
+  desc: null
+  value: false
+frozen idx:
+  desc: null
+  value: 0
+input 1 dim 1:
+  desc: null
+  value: 32
+input 1 dim 2:
+  desc: null
+  value: 3
+input 1 dim 3:
+  desc: null
+  value: 512
+input 1 dim 4:
+  desc: null
+  value: 512
+model parameters:
+  desc: null
+  value: 10046436
+n_inp:
+  desc: null
+  value: 1

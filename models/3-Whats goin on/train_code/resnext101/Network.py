@@ -1,6 +1,5 @@
-import torch.nn as nn
-import torch.tensor as Tensor
 import torch
+import torch.nn as nn
 from fastai.vision.all import *
 
 class FPN(nn.Module):

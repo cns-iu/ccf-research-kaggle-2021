@@ -43,6 +43,7 @@ class SegmentDataset:
     '''
     def __init__(self, root, mode_train=True, hard_mult=None, weights=None, frozen=False):
         imgs_path, masks_path = root / 'imgs', root / 'masks'
+        print (imgs_path)
         self.img_folders = utils.get_filenames(imgs_path, '*', lambda x: False)
         self.masks_folders = utils.get_filenames(masks_path, '*', lambda x: False)
         self.mode_train = mode_train

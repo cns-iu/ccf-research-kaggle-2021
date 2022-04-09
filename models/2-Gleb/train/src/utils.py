@@ -42,7 +42,7 @@ def get_filenames(path: str, pattern: str, filter_out_func: Callable) -> str:
     """
 
     filenames = list(Path(path).glob(pattern))
-    print(filenames)
+    print("******************************",path, filenames)
     assert (filenames), f'There is no matching filenames for {path}, {pattern}'
     filenames = [fn for fn in filenames if not filter_out_func(fn)]
     # assert (filenames), f'There is no matching filenames for {filter_out_func}'

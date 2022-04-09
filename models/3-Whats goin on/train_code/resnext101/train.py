@@ -16,7 +16,7 @@ from tqdm import tqdm
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--gpu_id', type=str, default='0,1',  help='which gpu to use')
-    parser.add_argument('--path', type=str, default='../../data', help='path of csv file with DNA sequences and labels')
+    parser.add_argument('--path', type=str, default='/N/u/soodn/Carbonate/data', help='path of csv file with DNA sequences and labels')
     parser.add_argument('--epochs', type=int, default=32, help='number of epochs to train')
     parser.add_argument('--batch_size', type=int, default=64, help='size of each batch during training')
     parser.add_argument('--weight_decay', type=float, default=1e-5, help='weight dacay used in optimizer')

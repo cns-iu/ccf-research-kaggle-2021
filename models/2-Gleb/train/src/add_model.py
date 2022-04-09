@@ -62,6 +62,7 @@ def parse_model_path(p):
 def get_last_model_name(src):
     # assumes that model name is of type e500_blabla.pth, sorted by epoch #500
     model_names = list(Path(src).glob('**/*.pth'))
+    print (src)
     assert model_names != [], 'No valid models at init path'
 
     res = []

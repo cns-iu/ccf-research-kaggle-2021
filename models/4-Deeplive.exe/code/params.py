@@ -5,7 +5,11 @@ import numpy as np
 
 NUM_WORKERS = 4 # 1 Changed
 
-DATA_PATH = "../input/"
+BASE_PATH = r'/N/slate/soodn/'
+# dataset = "kidney"
+dataset = "colon"
+
+DATA_PATH = BASE_PATH + "hubmap-"+dataset+"-segmentation/"
 TIFF_PATH = DATA_PATH + "train/"
 TIFF_PATH_4 = DATA_PATH + "train_4/"
 TIFF_PATH_2 = DATA_PATH + "train_2/"

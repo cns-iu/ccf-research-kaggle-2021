@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/DeepFlash2-Train.py", line 526, in <module>
+    learn = Learner(dls, model, metrics=cfg.metrics, wd=cfg.weight_decay, loss_func=cfg.loss_func, opt_func=ranger, cbs=cbs)
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastai/learner.py", line 94, in __init__
+    self("after_create")
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastai/learner.py", line 133, in __call__
+    def __call__(self, event_name): L(event_name).map(self._call_one)
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastcore/foundation.py", line 155, in map
+    def map(self, f, *args, gen=False, **kwargs): return self._new(map_ex(self, f, *args, gen=gen, **kwargs))
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastcore/basics.py", line 698, in map_ex
+    return list(res)
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastcore/basics.py", line 683, in __call__
+    return self.func(*fargs, **kwargs)
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastai/learner.py", line 137, in _call_one
+    [cb(event_name) for cb in sort_by_run(self.cbs)]
+NameError: name 'sort_by_run' is not defined
