@@ -1,0 +1,429 @@
+
+Start model fitting <fastai.learner.Learner object at 0x2b9a53588a00>
+epoch     train_loss  valid_loss  dice      iou       recall    precision  time
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+0         1.703259    1.678830    0.060671  0.031285  0.489690  0.032339   01:08
+Better model found at epoch 0 with dice value: 0.06067095313108712.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+1         1.636412    1.492819    0.173856  0.095204  0.675649  0.099763   01:04
+Better model found at epoch 1 with dice value: 0.17385600499765735.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+2         1.450339    1.144737    0.609295  0.438119  0.908207  0.458419   01:06
+Better model found at epoch 2 with dice value: 0.6092948355894846.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+3         1.226004    0.928993    0.718422  0.560576  0.901605  0.597106   01:06
+Better model found at epoch 3 with dice value: 0.7184221857507472.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+4         1.018468    0.744636    0.778140  0.636848  0.769745  0.786719   01:04
+Better model found at epoch 4 with dice value: 0.778139757662604.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+5         0.840008    0.647588    0.751080  0.601384  0.695009  0.816993   01:06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+6         0.706776    0.571845    0.781741  0.641687  0.808323  0.756851   01:04
+Better model found at epoch 6 with dice value: 0.7817406518166188.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+7         0.597781    0.530614    0.785408  0.646643  0.772150  0.799130   01:07
+Better model found at epoch 7 with dice value: 0.7854078791716952.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+8         0.518806    0.510410    0.791717  0.655242  0.803405  0.780365   01:07
+Better model found at epoch 8 with dice value: 0.7917174741846358.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+9         0.467453    0.507903    0.792083  0.655743  0.811558  0.773521   01:05
+Better model found at epoch 9 with dice value: 0.7920827648409942.
+Saving Model
+Model Saved
+Training on ['CL_HandE_1234_B004_bottomright', 'CL_HandE_1234_B004_topleft', 'HandE_B005_CL_b_RGB_bottomright', 'HandE_B005_CL_b_RGB_topleft']
+Preparing sampling
+Generating deformation field
+ 14%|██████████████▌                                                                                         | 14/100 [00:00<00:04, 19.07it/s]
+Generating value augmentation function
+Calculating stats for stain normalization w/o albumentation tfms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{'CL_HandE_1234_B004_bottomright': (array([0.04116576, 0.01462943, 0.02428022]), array([0.02089148, 0.01798606, 0.01588993])), 'CL_HandE_1234_B004_topleft': (array([0.05310602, 0.01121606, 0.0362884 ]), array([0.09659562, 0.02579951, 0.08200096])), 'HandE_B005_CL_b_RGB_bottomright': (array([ 0.16915963, -0.02307481,  0.09373312]), array([0.45906266, 0.07708463, 0.26555745])), 'HandE_B005_CL_b_RGB_topleft': (array([ 0.05402032, -0.00159277,  0.02934163]), array([0.21648224, 0.03765025, 0.12505292]))}
+{'CL_HandE_1234_B004_topright': (array([ 0.11608612, -0.00410001,  0.0636907 ]), array([0.37916907, 0.06637296, 0.21838474]))}
+Reducing validation from lenght 500 to 12
+Done
+encoder._conv_stem.weight
+encoder._bn0.weight
+encoder._bn0.bias
+encoder._blocks.0._depthwise_conv.weight
+encoder._blocks.0._bn1.weight
+encoder._blocks.0._bn1.bias
+encoder._blocks.0._se_reduce.weight
+encoder._blocks.0._se_reduce.bias
+encoder._blocks.0._se_expand.weight
+encoder._blocks.0._se_expand.bias
+encoder._blocks.0._project_conv.weight
+encoder._blocks.0._bn2.weight
+encoder._blocks.0._bn2.bias
+encoder._blocks.1._depthwise_conv.weight
+encoder._blocks.1._bn1.weight
+encoder._blocks.1._bn1.bias
+encoder._blocks.1._se_reduce.weight
+encoder._blocks.1._se_reduce.bias
+encoder._blocks.1._se_expand.weight
+encoder._blocks.1._se_expand.bias
+encoder._blocks.1._project_conv.weight
+encoder._blocks.1._bn2.weight
+encoder._blocks.1._bn2.bias
+encoder._blocks.2._expand_conv.weight
+encoder._blocks.2._bn0.weight
+encoder._blocks.2._bn0.bias
+encoder._blocks.2._depthwise_conv.weight
+encoder._blocks.2._bn1.weight
+encoder._blocks.2._bn1.bias
+encoder._blocks.2._se_reduce.weight
+encoder._blocks.2._se_reduce.bias
+encoder._blocks.2._se_expand.weight
+encoder._blocks.2._se_expand.bias
+encoder._blocks.2._project_conv.weight
+encoder._blocks.2._bn2.weight
+encoder._blocks.2._bn2.bias
+encoder._blocks.3._expand_conv.weight
+encoder._blocks.3._bn0.weight
+encoder._blocks.3._bn0.bias
+encoder._blocks.3._depthwise_conv.weight
+encoder._blocks.3._bn1.weight
+encoder._blocks.3._bn1.bias
+encoder._blocks.3._se_reduce.weight
+encoder._blocks.3._se_reduce.bias
+encoder._blocks.3._se_expand.weight
+encoder._blocks.3._se_expand.bias
+encoder._blocks.3._project_conv.weight
+encoder._blocks.3._bn2.weight
+encoder._blocks.3._bn2.bias
+encoder._blocks.4._expand_conv.weight
+encoder._blocks.4._bn0.weight
+encoder._blocks.4._bn0.bias
+encoder._blocks.4._depthwise_conv.weight
+encoder._blocks.4._bn1.weight
+encoder._blocks.4._bn1.bias
+encoder._blocks.4._se_reduce.weight
+encoder._blocks.4._se_reduce.bias
+encoder._blocks.4._se_expand.weight
+encoder._blocks.4._se_expand.bias
+encoder._blocks.4._project_conv.weight
+encoder._blocks.4._bn2.weight
+encoder._blocks.4._bn2.bias
+encoder._blocks.5._expand_conv.weight
+encoder._blocks.5._bn0.weight
+encoder._blocks.5._bn0.bias
+encoder._blocks.5._depthwise_conv.weight
+encoder._blocks.5._bn1.weight
+encoder._blocks.5._bn1.bias
+encoder._blocks.5._se_reduce.weight
+encoder._blocks.5._se_reduce.bias
+encoder._blocks.5._se_expand.weight
+encoder._blocks.5._se_expand.bias
+encoder._blocks.5._project_conv.weight
+encoder._blocks.5._bn2.weight
+encoder._blocks.5._bn2.bias
+encoder._blocks.6._expand_conv.weight
+encoder._blocks.6._bn0.weight
+encoder._blocks.6._bn0.bias
+encoder._blocks.6._depthwise_conv.weight
+encoder._blocks.6._bn1.weight
+encoder._blocks.6._bn1.bias
+encoder._blocks.6._se_reduce.weight
+encoder._blocks.6._se_reduce.bias
+encoder._blocks.6._se_expand.weight
+encoder._blocks.6._se_expand.bias
+encoder._blocks.6._project_conv.weight
+encoder._blocks.6._bn2.weight
+encoder._blocks.6._bn2.bias
+encoder._blocks.7._expand_conv.weight
+encoder._blocks.7._bn0.weight
+encoder._blocks.7._bn0.bias
+encoder._blocks.7._depthwise_conv.weight
+encoder._blocks.7._bn1.weight
+encoder._blocks.7._bn1.bias
+encoder._blocks.7._se_reduce.weight
+encoder._blocks.7._se_reduce.bias
+encoder._blocks.7._se_expand.weight
+encoder._blocks.7._se_expand.bias
+encoder._blocks.7._project_conv.weight
+encoder._blocks.7._bn2.weight
+encoder._blocks.7._bn2.bias
+encoder._blocks.8._expand_conv.weight
+encoder._blocks.8._bn0.weight
+encoder._blocks.8._bn0.bias
+encoder._blocks.8._depthwise_conv.weight
+encoder._blocks.8._bn1.weight
+encoder._blocks.8._bn1.bias
+encoder._blocks.8._se_reduce.weight
+encoder._blocks.8._se_reduce.bias
+encoder._blocks.8._se_expand.weight
+encoder._blocks.8._se_expand.bias
+encoder._blocks.8._project_conv.weight
+encoder._blocks.8._bn2.weight
+encoder._blocks.8._bn2.bias
+encoder._blocks.9._expand_conv.weight
+encoder._blocks.9._bn0.weight
+encoder._blocks.9._bn0.bias
+encoder._blocks.9._depthwise_conv.weight
+encoder._blocks.9._bn1.weight
+encoder._blocks.9._bn1.bias
+encoder._blocks.9._se_reduce.weight
+encoder._blocks.9._se_reduce.bias
+encoder._blocks.9._se_expand.weight
+encoder._blocks.9._se_expand.bias
+encoder._blocks.9._project_conv.weight
+encoder._blocks.9._bn2.weight
+encoder._blocks.9._bn2.bias
+encoder._blocks.10._expand_conv.weight
+encoder._blocks.10._bn0.weight
+encoder._blocks.10._bn0.bias
+encoder._blocks.10._depthwise_conv.weight
+encoder._blocks.10._bn1.weight
+encoder._blocks.10._bn1.bias
+encoder._blocks.10._se_reduce.weight
+encoder._blocks.10._se_reduce.bias
+encoder._blocks.10._se_expand.weight
+encoder._blocks.10._se_expand.bias
+encoder._blocks.10._project_conv.weight
+encoder._blocks.10._bn2.weight
+encoder._blocks.10._bn2.bias
+encoder._blocks.11._expand_conv.weight
+encoder._blocks.11._bn0.weight
+encoder._blocks.11._bn0.bias
+encoder._blocks.11._depthwise_conv.weight
+encoder._blocks.11._bn1.weight
+encoder._blocks.11._bn1.bias
+encoder._blocks.11._se_reduce.weight
+encoder._blocks.11._se_reduce.bias
+encoder._blocks.11._se_expand.weight
+encoder._blocks.11._se_expand.bias
+encoder._blocks.11._project_conv.weight
+encoder._blocks.11._bn2.weight
+encoder._blocks.11._bn2.bias
+encoder._blocks.12._expand_conv.weight
+encoder._blocks.12._bn0.weight
+encoder._blocks.12._bn0.bias
+encoder._blocks.12._depthwise_conv.weight
+encoder._blocks.12._bn1.weight
+encoder._blocks.12._bn1.bias
+encoder._blocks.12._se_reduce.weight
+encoder._blocks.12._se_reduce.bias
+encoder._blocks.12._se_expand.weight
+encoder._blocks.12._se_expand.bias
+encoder._blocks.12._project_conv.weight
+encoder._blocks.12._bn2.weight
+encoder._blocks.12._bn2.bias
+encoder._blocks.13._expand_conv.weight
+encoder._blocks.13._bn0.weight
+encoder._blocks.13._bn0.bias
+Number of frozen layers: 168
+Number of unfrozen layers: 163

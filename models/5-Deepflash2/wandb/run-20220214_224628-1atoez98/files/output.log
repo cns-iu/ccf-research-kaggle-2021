@@ -1,0 +1,72 @@
+
+Start model fitting <fastai.learner.Learner object at 0x2acc6ad92250>
+epoch     train_loss  valid_loss  dice      iou       recall_score  precision_score  time
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1/10 : |----------------------------------------------------------------------------------| 0.00% [0/1 00:00<00:00]
+Traceback (most recent call last):
+  File "/geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/DeepFlash2-Train.py", line 530, in <module>
+    learn.fit_one_cycle(cfg.epochs, lr_max=cfg.max_learning_rate)
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastai/callback/schedule.py", line 116, in fit_one_cycle
+    self.fit(n_epoch, cbs=ParamScheduler(scheds)+L(cbs), reset_opt=reset_opt, wd=wd)
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastai/learner.py", line 221, in fit
+    self._with_events(self._do_fit, 'fit', CancelFitException, self._end_cleanup)
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastai/learner.py", line 163, in _with_events
+    try: self(f'before_{event_type}');  f()
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastai/learner.py", line 212, in _do_fit
+    self._with_events(self._do_epoch, 'epoch', CancelEpochException)
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastai/learner.py", line 163, in _with_events
+    try: self(f'before_{event_type}');  f()
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastai/learner.py", line 207, in _do_epoch
+    self._do_epoch_validate()
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastai/learner.py", line 203, in _do_epoch_validate
+    with torch.no_grad(): self._with_events(self.all_batches, 'validate', CancelValidException)
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastai/learner.py", line 163, in _with_events
+    try: self(f'before_{event_type}');  f()
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastai/learner.py", line 169, in all_batches
+    for o in enumerate(self.dl): self.one_batch(*o)
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastai/learner.py", line 194, in one_batch
+    self._with_events(self._do_one_batch, 'batch', CancelBatchException)
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastai/learner.py", line 165, in _with_events
+    self(f'after_{event_type}');  final()
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastai/learner.py", line 141, in __call__
+    def __call__(self, event_name): L(event_name).map(self._call_one)
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastcore/foundation.py", line 155, in map
+    def map(self, f, *args, gen=False, **kwargs): return self._new(map_ex(self, f, *args, gen=gen, **kwargs))
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastcore/basics.py", line 698, in map_ex
+    return list(res)
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastcore/basics.py", line 683, in __call__
+    return self.func(*fargs, **kwargs)
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastai/learner.py", line 145, in _call_one
+    for cb in self.cbs.sorted('order'): cb(event_name)
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastai/callback/core.py", line 45, in __call__
+    if self.run and _run: res = getattr(self, event_name, noop)()
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastai/learner.py", line 504, in after_batch
+    for met in mets: met.accumulate(self.learn)
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastai/metrics.py", line 45, in accumulate
+    self.accum_values(pred,learn.y,learn)
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastai/metrics.py", line 51, in accum_values
+    if self.flatten: preds,targs = flatten_check(preds,targs)
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastai/torch_core.py", line 814, in flatten_check
+    test_eq(len(inp), len(targ))
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastcore/test.py", line 36, in test_eq
+    test(a,b,equals, '==')
+  File "/N/u/soodn/Carbonate/.local/lib/python3.9/site-packages/fastcore/test.py", line 26, in test
+    assert cmp(a,b),f"{cname}:\n{a}\n{b}"
+AssertionError: ==:
+12288
+3145728

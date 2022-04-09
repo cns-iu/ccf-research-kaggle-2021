@@ -1,0 +1,221 @@
+
+Start model fitting <fastai.learner.Learner object at 0x2b5fe31a0880>
+epoch     train_loss  valid_loss  dice      iou       recall    precision  time
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+0         1.531221    1.461610    0.132863  0.071159  0.280558  0.087042   01:04
+Better model found at epoch 0 with dice value: 0.1328631962413352.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+1         1.454930    1.337281    0.208551  0.116415  0.357988  0.147133   00:59
+Better model found at epoch 1 with dice value: 0.20855116481624644.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+2         1.292337    1.073572    0.522044  0.353220  0.802470  0.386856   01:00
+Better model found at epoch 2 with dice value: 0.5220440596466891.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+3         1.083752    0.845498    0.626722  0.456369  0.602244  0.653275   00:58
+Better model found at epoch 3 with dice value: 0.6267220993488725.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+4         0.901236    0.639363    0.725720  0.569514  0.761913  0.692810   01:00
+Better model found at epoch 4 with dice value: 0.7257204126791964.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+5         0.755118    0.573205    0.722216  0.565210  0.721805  0.722627   00:59
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+6         0.637686    0.517248    0.746241  0.595203  0.737565  0.755123   00:59
+Better model found at epoch 6 with dice value: 0.746240897827169.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+7         0.546301    0.506493    0.739645  0.586855  0.705727  0.776988   00:57
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generating deformation field
+Generating value augmentation function
+8         0.480674    0.493660    0.751258  0.601612  0.741000  0.761805   01:00
+Better model found at epoch 8 with dice value: 0.7512584220204329.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 10/10 : |----------------------------------------------------------------------------------| 0.00% [0/1 00:00<00:00]
+Traceback (most recent call last):
+  File "/geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/Deepflash2-Train-Colon.py", line 560, in <module>
+    torch.save(state, f'models_colon_transfer/unet_{cfg.encoder_name}_{i}.pth', pickle_protocol=2, _use_new_zipfile_serialization=False)
+  File "/N/soft/rhel7/deeplearning/Python-3.9.6/lib/python3.9/site-packages/torch/serialization.py", line 376, in save
+    with _open_file_like(f, 'wb') as opened_file:
+  File "/N/soft/rhel7/deeplearning/Python-3.9.6/lib/python3.9/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/N/soft/rhel7/deeplearning/Python-3.9.6/lib/python3.9/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+Generating deformation field
+Generating value augmentation function
+9         0.430633    0.494872    0.752276  0.602918  0.753360  0.751195   00:57
+Better model found at epoch 9 with dice value: 0.7522756792948585.
+Saving Model

@@ -1,0 +1,236 @@
+2022-04-07 14:13:36,706 INFO    MainThread:32257 [internal.py:wandb_internal():89] W&B internal server running at pid: 32257, started at: 2022-04-07 14:13:36.703534
+2022-04-07 14:13:36,709 INFO    WriterThread:32257 [datastore.py:open_for_write():77] open: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/run-2clwwe6y.wandb
+2022-04-07 14:13:36,709 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: check_version
+2022-04-07 14:13:36,724 DEBUG   SenderThread:32257 [sender.py:send():235] send: header
+2022-04-07 14:13:36,725 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: check_version
+2022-04-07 14:13:36,789 DEBUG   SenderThread:32257 [sender.py:send():235] send: run
+2022-04-07 14:13:37,235 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: run_start
+2022-04-07 14:13:37,235 INFO    SenderThread:32257 [dir_watcher.py:__init__():169] watching files in: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files
+2022-04-07 14:13:37,243 INFO    SenderThread:32257 [sender.py:_start_run_threads():809] run started: 2clwwe6y with start time 1649355212
+2022-04-07 14:13:37,244 DEBUG   SenderThread:32257 [sender.py:send():235] send: summary
+2022-04-07 14:13:37,246 INFO    SenderThread:32257 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-07 14:13:38,237 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_created():217] file/dir created: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/wandb-summary.json
+2022-04-07 14:13:41,291 DEBUG   HandlerThread:32257 [meta.py:__init__():36] meta init
+2022-04-07 14:13:41,292 DEBUG   HandlerThread:32257 [meta.py:__init__():50] meta init done
+2022-04-07 14:13:41,293 DEBUG   HandlerThread:32257 [meta.py:probe():210] probe
+2022-04-07 14:13:41,302 DEBUG   HandlerThread:32257 [meta.py:_setup_git():200] setup git
+2022-04-07 14:13:41,384 DEBUG   HandlerThread:32257 [meta.py:_setup_git():207] setup git done
+2022-04-07 14:13:41,385 DEBUG   HandlerThread:32257 [meta.py:_save_pip():54] save pip
+2022-04-07 14:13:41,387 DEBUG   HandlerThread:32257 [meta.py:_save_pip():68] save pip done
+2022-04-07 14:13:41,398 DEBUG   HandlerThread:32257 [meta.py:_save_conda():75] save conda
+2022-04-07 14:13:42,274 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_created():217] file/dir created: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/conda-environment.yaml
+2022-04-07 14:13:42,275 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_created():217] file/dir created: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/requirements.txt
+2022-04-07 14:13:42,276 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_created():217] file/dir created: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log
+2022-04-07 14:13:44,275 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log
+2022-04-07 14:13:46,276 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log
+2022-04-07 14:14:05,285 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log
+2022-04-07 14:14:07,286 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log
+2022-04-07 14:14:07,619 DEBUG   HandlerThread:32257 [meta.py:_save_conda():85] save conda done
+2022-04-07 14:14:07,620 DEBUG   HandlerThread:32257 [meta.py:probe():248] probe done
+2022-04-07 14:14:07,709 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: stop_status
+2022-04-07 14:14:07,709 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: stop_status
+2022-04-07 14:14:07,710 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: stop_status
+2022-04-07 14:14:07,772 DEBUG   SenderThread:32257 [sender.py:send():235] send: config
+2022-04-07 14:14:07,775 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: stop_status
+2022-04-07 14:14:07,933 DEBUG   SenderThread:32257 [sender.py:send():235] send: history
+2022-04-07 14:14:07,934 DEBUG   SenderThread:32257 [sender.py:send():235] send: summary
+2022-04-07 14:14:07,936 INFO    SenderThread:32257 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-07 14:14:07,936 DEBUG   SenderThread:32257 [sender.py:send():235] send: history
+2022-04-07 14:14:07,936 DEBUG   SenderThread:32257 [sender.py:send():235] send: summary
+2022-04-07 14:14:07,938 INFO    SenderThread:32257 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-07 14:14:07,938 DEBUG   SenderThread:32257 [sender.py:send():235] send: files
+2022-04-07 14:14:07,938 INFO    SenderThread:32257 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-04-07 14:14:08,286 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/conda-environment.yaml
+2022-04-07 14:14:08,287 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/wandb-summary.json
+2022-04-07 14:14:08,288 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_created():217] file/dir created: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/wandb-metadata.json
+2022-04-07 14:14:08,397 INFO    Thread-11 :32257 [upload_job.py:push():137] Uploaded file /tmp/tmpcpkjy804wandb/3gqubpj5-wandb-metadata.json
+2022-04-07 14:14:09,287 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log
+2022-04-07 14:14:10,002 DEBUG   SenderThread:32257 [sender.py:send():235] send: history
+2022-04-07 14:14:10,003 DEBUG   SenderThread:32257 [sender.py:send():235] send: summary
+2022-04-07 14:14:10,007 INFO    SenderThread:32257 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-07 14:14:10,196 DEBUG   SenderThread:32257 [sender.py:send():235] send: stats
+2022-04-07 14:14:10,287 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/wandb-summary.json
+2022-04-07 14:14:13,289 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log
+2022-04-07 14:14:13,654 DEBUG   SenderThread:32257 [sender.py:send():235] send: history
+2022-04-07 14:14:13,655 DEBUG   SenderThread:32257 [sender.py:send():235] send: summary
+2022-04-07 14:14:13,656 INFO    SenderThread:32257 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-07 14:14:14,295 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/wandb-summary.json
+2022-04-07 14:14:15,295 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log
+2022-04-07 14:14:17,345 DEBUG   SenderThread:32257 [sender.py:send():235] send: history
+2022-04-07 14:14:17,346 DEBUG   SenderThread:32257 [sender.py:send():235] send: summary
+2022-04-07 14:14:17,350 INFO    SenderThread:32257 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-07 14:14:18,297 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/wandb-summary.json
+2022-04-07 14:14:19,298 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log
+2022-04-07 14:14:20,927 DEBUG   SenderThread:32257 [sender.py:send():235] send: history
+2022-04-07 14:14:20,928 DEBUG   SenderThread:32257 [sender.py:send():235] send: summary
+2022-04-07 14:14:20,929 INFO    SenderThread:32257 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-07 14:14:21,299 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/wandb-summary.json
+2022-04-07 14:14:22,242 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: stop_status
+2022-04-07 14:14:22,243 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: stop_status
+2022-04-07 14:14:23,300 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log
+2022-04-07 14:14:24,493 DEBUG   SenderThread:32257 [sender.py:send():235] send: history
+2022-04-07 14:14:24,494 DEBUG   SenderThread:32257 [sender.py:send():235] send: summary
+2022-04-07 14:14:24,498 INFO    SenderThread:32257 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-07 14:14:25,301 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/wandb-summary.json
+2022-04-07 14:14:27,302 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log
+2022-04-07 14:14:28,072 DEBUG   SenderThread:32257 [sender.py:send():235] send: history
+2022-04-07 14:14:28,073 DEBUG   SenderThread:32257 [sender.py:send():235] send: summary
+2022-04-07 14:14:28,077 INFO    SenderThread:32257 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-07 14:14:28,302 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/wandb-summary.json
+2022-04-07 14:14:29,303 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log
+2022-04-07 14:14:31,782 DEBUG   SenderThread:32257 [sender.py:send():235] send: history
+2022-04-07 14:14:31,783 DEBUG   SenderThread:32257 [sender.py:send():235] send: summary
+2022-04-07 14:14:31,784 INFO    SenderThread:32257 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-07 14:14:32,304 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/wandb-summary.json
+2022-04-07 14:14:33,305 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log
+2022-04-07 14:14:35,290 DEBUG   SenderThread:32257 [sender.py:send():235] send: history
+2022-04-07 14:14:35,291 DEBUG   SenderThread:32257 [sender.py:send():235] send: summary
+2022-04-07 14:14:35,292 INFO    SenderThread:32257 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-07 14:14:35,306 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/wandb-summary.json
+2022-04-07 14:14:37,307 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log
+2022-04-07 14:14:37,312 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: stop_status
+2022-04-07 14:14:37,313 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: stop_status
+2022-04-07 14:14:38,307 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/config.yaml
+2022-04-07 14:14:38,866 DEBUG   SenderThread:32257 [sender.py:send():235] send: history
+2022-04-07 14:14:38,867 DEBUG   SenderThread:32257 [sender.py:send():235] send: summary
+2022-04-07 14:14:38,868 INFO    SenderThread:32257 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-07 14:14:39,308 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/wandb-summary.json
+2022-04-07 14:14:41,044 DEBUG   SenderThread:32257 [sender.py:send():235] send: stats
+2022-04-07 14:14:41,309 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log
+2022-04-07 14:14:42,494 DEBUG   SenderThread:32257 [sender.py:send():235] send: history
+2022-04-07 14:14:42,495 DEBUG   SenderThread:32257 [sender.py:send():235] send: summary
+2022-04-07 14:14:42,496 INFO    SenderThread:32257 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-07 14:14:43,310 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/wandb-summary.json
+2022-04-07 14:14:45,311 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log
+2022-04-07 14:14:45,977 DEBUG   SenderThread:32257 [sender.py:send():235] send: history
+2022-04-07 14:14:45,978 DEBUG   SenderThread:32257 [sender.py:send():235] send: summary
+2022-04-07 14:14:45,979 INFO    SenderThread:32257 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-07 14:14:46,311 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/wandb-summary.json
+2022-04-07 14:14:49,313 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log
+2022-04-07 14:14:49,617 DEBUG   SenderThread:32257 [sender.py:send():235] send: history
+2022-04-07 14:14:49,618 DEBUG   SenderThread:32257 [sender.py:send():235] send: summary
+2022-04-07 14:14:49,619 INFO    SenderThread:32257 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-07 14:14:50,313 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/wandb-summary.json
+2022-04-07 14:14:51,314 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log
+2022-04-07 14:14:52,375 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: stop_status
+2022-04-07 14:14:52,375 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: stop_status
+2022-04-07 14:14:53,209 DEBUG   SenderThread:32257 [sender.py:send():235] send: history
+2022-04-07 14:14:53,210 DEBUG   SenderThread:32257 [sender.py:send():235] send: summary
+2022-04-07 14:14:53,211 INFO    SenderThread:32257 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-07 14:14:53,315 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/wandb-summary.json
+2022-04-07 14:14:55,316 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log
+2022-04-07 14:14:57,317 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log
+2022-04-07 14:14:58,482 DEBUG   SenderThread:32257 [sender.py:send():235] send: history
+2022-04-07 14:14:58,483 DEBUG   SenderThread:32257 [sender.py:send():235] send: summary
+2022-04-07 14:14:58,484 INFO    SenderThread:32257 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-07 14:14:59,319 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/wandb-summary.json
+2022-04-07 14:15:01,320 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log
+2022-04-07 14:15:01,448 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-07 14:15:01,448 DEBUG   SenderThread:32257 [sender.py:send():235] send: telemetry
+2022-04-07 14:15:01,449 DEBUG   SenderThread:32257 [sender.py:send():235] send: exit
+2022-04-07 14:15:01,449 INFO    SenderThread:32257 [sender.py:send_exit():371] handling exit code: 1
+2022-04-07 14:15:01,450 INFO    SenderThread:32257 [sender.py:send_exit():373] handling runtime: 84
+2022-04-07 14:15:01,451 INFO    SenderThread:32257 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-07 14:15:01,452 INFO    SenderThread:32257 [sender.py:send_exit():379] send defer
+2022-04-07 14:15:01,452 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-07 14:15:01,453 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: defer
+2022-04-07 14:15:01,454 INFO    HandlerThread:32257 [handler.py:handle_request_defer():154] handle defer: 0
+2022-04-07 14:15:01,454 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: defer
+2022-04-07 14:15:01,455 INFO    SenderThread:32257 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-04-07 14:15:01,455 INFO    SenderThread:32257 [sender.py:transition_state():392] send defer: 1
+2022-04-07 14:15:01,455 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: defer
+2022-04-07 14:15:01,456 INFO    HandlerThread:32257 [handler.py:handle_request_defer():154] handle defer: 1
+2022-04-07 14:15:01,505 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: defer
+2022-04-07 14:15:01,505 INFO    SenderThread:32257 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-04-07 14:15:01,506 INFO    SenderThread:32257 [sender.py:transition_state():392] send defer: 2
+2022-04-07 14:15:01,506 DEBUG   SenderThread:32257 [sender.py:send():235] send: stats
+2022-04-07 14:15:01,506 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: defer
+2022-04-07 14:15:01,507 INFO    HandlerThread:32257 [handler.py:handle_request_defer():154] handle defer: 2
+2022-04-07 14:15:01,507 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: defer
+2022-04-07 14:15:01,508 INFO    SenderThread:32257 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-04-07 14:15:01,508 INFO    SenderThread:32257 [sender.py:transition_state():392] send defer: 3
+2022-04-07 14:15:01,508 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: defer
+2022-04-07 14:15:01,509 INFO    HandlerThread:32257 [handler.py:handle_request_defer():154] handle defer: 3
+2022-04-07 14:15:01,511 DEBUG   SenderThread:32257 [sender.py:send():235] send: summary
+2022-04-07 14:15:01,512 INFO    SenderThread:32257 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-04-07 14:15:01,513 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: defer
+2022-04-07 14:15:01,513 INFO    SenderThread:32257 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-04-07 14:15:01,513 INFO    SenderThread:32257 [sender.py:transition_state():392] send defer: 4
+2022-04-07 14:15:01,514 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: defer
+2022-04-07 14:15:01,514 INFO    HandlerThread:32257 [handler.py:handle_request_defer():154] handle defer: 4
+2022-04-07 14:15:01,514 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: defer
+2022-04-07 14:15:01,515 INFO    SenderThread:32257 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-04-07 14:15:01,555 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-07 14:15:01,624 INFO    SenderThread:32257 [sender.py:transition_state():392] send defer: 5
+2022-04-07 14:15:01,624 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-07 14:15:01,624 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: defer
+2022-04-07 14:15:01,625 INFO    HandlerThread:32257 [handler.py:handle_request_defer():154] handle defer: 5
+2022-04-07 14:15:01,625 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: defer
+2022-04-07 14:15:01,626 INFO    SenderThread:32257 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-04-07 14:15:01,626 INFO    SenderThread:32257 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-04-07 14:15:01,726 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-07 14:15:02,321 INFO    Thread-8  :32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log
+2022-04-07 14:15:02,322 INFO    SenderThread:32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/config.yaml
+2022-04-07 14:15:02,323 INFO    SenderThread:32257 [dir_watcher.py:_on_file_modified():230] file/dir modified: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/wandb-summary.json
+2022-04-07 14:15:02,323 INFO    SenderThread:32257 [dir_watcher.py:finish():313] scan: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files
+2022-04-07 14:15:02,324 INFO    SenderThread:32257 [dir_watcher.py:finish():327] scan save: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/conda-environment.yaml conda-environment.yaml
+2022-04-07 14:15:02,324 INFO    SenderThread:32257 [dir_watcher.py:finish():327] scan save: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/wandb-metadata.json wandb-metadata.json
+2022-04-07 14:15:02,328 INFO    SenderThread:32257 [dir_watcher.py:finish():327] scan save: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/config.yaml config.yaml
+2022-04-07 14:15:02,328 INFO    SenderThread:32257 [dir_watcher.py:finish():327] scan save: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/requirements.txt requirements.txt
+2022-04-07 14:15:02,332 INFO    SenderThread:32257 [dir_watcher.py:finish():327] scan save: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/wandb-summary.json wandb-summary.json
+2022-04-07 14:15:02,335 INFO    SenderThread:32257 [dir_watcher.py:finish():327] scan save: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log output.log
+2022-04-07 14:15:02,341 INFO    SenderThread:32257 [sender.py:transition_state():392] send defer: 6
+2022-04-07 14:15:02,345 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-07 14:15:02,345 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: defer
+2022-04-07 14:15:02,346 INFO    HandlerThread:32257 [handler.py:handle_request_defer():154] handle defer: 6
+2022-04-07 14:15:02,349 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: defer
+2022-04-07 14:15:02,350 INFO    SenderThread:32257 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-04-07 14:15:02,356 INFO    SenderThread:32257 [file_pusher.py:finish():177] shutting down file pusher
+2022-04-07 14:15:02,448 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-07 14:15:02,449 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-07 14:15:02,550 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-07 14:15:02,551 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-07 14:15:02,653 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-07 14:15:02,654 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-07 14:15:02,679 INFO    Thread-12 :32257 [upload_job.py:push():137] Uploaded file /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/conda-environment.yaml
+2022-04-07 14:15:02,706 INFO    Thread-15 :32257 [upload_job.py:push():137] Uploaded file /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/wandb-summary.json
+2022-04-07 14:15:02,714 INFO    Thread-13 :32257 [upload_job.py:push():137] Uploaded file /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/config.yaml
+2022-04-07 14:15:02,730 INFO    Thread-14 :32257 [upload_job.py:push():137] Uploaded file /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/requirements.txt
+2022-04-07 14:15:02,755 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-07 14:15:02,756 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-07 14:15:02,785 INFO    Thread-16 :32257 [upload_job.py:push():137] Uploaded file /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/files/output.log
+2022-04-07 14:15:02,858 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-07 14:15:02,858 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-07 14:15:02,960 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-07 14:15:02,961 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-07 14:15:02,986 INFO    Thread-7  :32257 [sender.py:transition_state():392] send defer: 7
+2022-04-07 14:15:02,987 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: defer
+2022-04-07 14:15:02,988 INFO    HandlerThread:32257 [handler.py:handle_request_defer():154] handle defer: 7
+2022-04-07 14:15:02,988 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: defer
+2022-04-07 14:15:02,988 INFO    SenderThread:32257 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-04-07 14:15:03,063 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-07 14:15:03,179 INFO    SenderThread:32257 [sender.py:transition_state():392] send defer: 8
+2022-04-07 14:15:03,179 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-07 14:15:03,179 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: defer
+2022-04-07 14:15:03,180 INFO    HandlerThread:32257 [handler.py:handle_request_defer():154] handle defer: 8
+2022-04-07 14:15:03,181 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: defer
+2022-04-07 14:15:03,181 INFO    SenderThread:32257 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-04-07 14:15:03,182 INFO    SenderThread:32257 [sender.py:transition_state():392] send defer: 9
+2022-04-07 14:15:03,182 DEBUG   SenderThread:32257 [sender.py:send():235] send: final
+2022-04-07 14:15:03,182 DEBUG   SenderThread:32257 [sender.py:send():235] send: footer
+2022-04-07 14:15:03,182 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: defer
+2022-04-07 14:15:03,183 INFO    HandlerThread:32257 [handler.py:handle_request_defer():154] handle defer: 9
+2022-04-07 14:15:03,183 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: defer
+2022-04-07 14:15:03,184 INFO    SenderThread:32257 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-04-07 14:15:03,281 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: poll_exit
+2022-04-07 14:15:03,282 DEBUG   SenderThread:32257 [sender.py:send_request():249] send_request: poll_exit
+2022-04-07 14:15:03,282 INFO    SenderThread:32257 [file_pusher.py:join():182] waiting for file pusher
+2022-04-07 14:15:03,421 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: get_summary
+2022-04-07 14:15:03,422 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: sampled_history
+2022-04-07 14:15:03,423 DEBUG   HandlerThread:32257 [handler.py:handle_request():131] handle_request: shutdown
+2022-04-07 14:15:03,423 INFO    HandlerThread:32257 [handler.py:finish():739] shutting down handler
+2022-04-07 14:15:04,182 INFO    WriterThread:32257 [datastore.py:close():281] close: /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220407_141331-2clwwe6y/run-2clwwe6y.wandb
+2022-04-07 14:15:04,420 INFO    SenderThread:32257 [sender.py:finish():1075] shutting down sender
+2022-04-07 14:15:04,421 INFO    SenderThread:32257 [file_pusher.py:finish():177] shutting down file pusher
+2022-04-07 14:15:04,421 INFO    SenderThread:32257 [file_pusher.py:join():182] waiting for file pusher
+2022-04-07 14:15:04,423 INFO    MainThread:32257 [internal.py:handle_exit():79] Internal process exited

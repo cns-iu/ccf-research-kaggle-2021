@@ -1,0 +1,117 @@
+2022-02-14 22:46:28,398 INFO    MainThread:25702 [wandb_setup.py:_flush():75] Loading settings from /N/u/soodn/Carbonate/.config/wandb/settings
+2022-02-14 22:46:28,400 INFO    MainThread:25702 [wandb_setup.py:_flush():75] Loading settings from /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/settings
+2022-02-14 22:46:28,400 INFO    MainThread:25702 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-02-14 22:46:28,400 INFO    MainThread:25702 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'models/5-Deepflash2/DeepFlash2-Train.py', 'program': '/geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/DeepFlash2-Train.py'}
+2022-02-14 22:46:28,401 INFO    MainThread:25702 [wandb_setup.py:_flush():75] Applying login settings: {'api_key': '***REDACTED***'}
+2022-02-14 22:46:28,401 INFO    MainThread:25702 [wandb_setup.py:_flush():75] Applying login settings: {'api_key': '***REDACTED***'}
+2022-02-14 22:46:28,402 INFO    MainThread:25702 [wandb_init.py:_log_setup():386] Logging user logs to /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220214_224628-1atoez98/logs/debug.log
+2022-02-14 22:46:28,403 INFO    MainThread:25702 [wandb_init.py:_log_setup():387] Logging internal logs to /geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/wandb/run-20220214_224628-1atoez98/logs/debug-internal.log
+2022-02-14 22:46:28,403 INFO    MainThread:25702 [wandb_init.py:init():420] calling init triggers
+2022-02-14 22:46:28,403 INFO    MainThread:25702 [wandb_init.py:init():425] wandb.init called with sweep_config: {}
+config: {}
+2022-02-14 22:46:28,404 INFO    MainThread:25702 [wandb_init.py:init():471] starting backend
+2022-02-14 22:46:28,404 INFO    MainThread:25702 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-02-14 22:46:28,549 INFO    MainThread:25702 [backend.py:ensure_launched():219] starting backend process...
+2022-02-14 22:46:28,721 INFO    MainThread:25702 [backend.py:ensure_launched():224] started backend process with pid: 26372
+2022-02-14 22:46:28,724 INFO    MainThread:25702 [wandb_init.py:init():480] backend started and connected
+2022-02-14 22:46:28,768 INFO    MainThread:25702 [wandb_init.py:init():550] updated telemetry
+2022-02-14 22:46:29,316 INFO    MainThread:25702 [wandb_init.py:init():581] communicating current version
+2022-02-14 22:46:34,317 INFO    MainThread:25702 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-02-14 22:46:34,775 INFO    MainThread:25702 [wandb_init.py:init():624] starting run threads in backend
+2022-02-14 22:46:39,780 INFO    MainThread:25702 [wandb_run.py:_console_start():1827] atexit reg
+2022-02-14 22:46:39,783 INFO    MainThread:25702 [wandb_run.py:_redirect():1701] redirect: SettingsConsole.REDIRECT
+2022-02-14 22:46:39,784 INFO    MainThread:25702 [wandb_run.py:_redirect():1706] Redirecting console.
+2022-02-14 22:46:39,786 INFO    MainThread:25702 [wandb_run.py:_redirect():1762] Redirects installed.
+2022-02-14 22:46:39,788 INFO    MainThread:25702 [wandb_init.py:init():651] run started, returning control to user process
+2022-02-14 22:46:44,446 INFO    MainThread:25702 [wandb_run.py:_config_callback():966] config_cb None None {'Learner': {'loss_func': 'JointLoss(\n  (first): WeightedLoss(\n    (loss): TorchLoss(\n      (loss): DiceLoss()\n    )\n  )\n  (second): WeightedLoss()\n)', 'opt_func': 'fastai.optimizer.ranger', 'lr': 0.001, 'splitter': 'fastai.torch_core.trainable_params', 'metrics': ['<fastai.metrics.Dice object at 0x2acc68b97160>', '<deepflash2.metrics.Iou object at 0x2acc68b97040>', {'func': 'sklearn.metrics._classification.recall_score', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x2acc68b971c0>'}, {'func': 'sklearn.metrics._classification.precision_score', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x2acc68b97220>'}], 'path': '.', 'model_dir': 'models', 'wd': 0.0001, 'wd_bn_bias': False, 'train_bn': True, 'moms': [0.95, 0.85, 0.95], '_name': '<fastai.learner.Learner object at 0x2acc6ad92250>'}, 'TrainEvalCallback': True, 'Recorder': {'add_time': True, 'train_metrics': False, 'valid_metrics': True}, 'ProgressCallback': True, 'SaveModelCallback': {'fname': 'model', 'every_epoch': False, 'at_end': False, 'with_opt': False}, 'ElasticDeformCallback': True, 'WandbCallback': {'log': 'gradients', 'log_preds': False, 'log_model': False, 'log_dataset': False, 'dataset_name': None, 'valid_dl': None, 'n_preds': 36, 'seed': 12345, 'reorder': True}, 'MixedPrecision': True, 'ParamScheduler': True, 'n_inp': 1, 'input 1 dim 1': 32, 'input 1 dim 2': 3, 'input 1 dim 3': 512, 'input 1 dim 4': 512, 'batch size': 32, 'batch per epoch': 16, 'model parameters': 10046436, 'device': 'cuda', 'frozen': False, 'frozen idx': 0}
+2022-02-14 22:46:44,448 INFO    MainThread:25702 [wandb_watch.py:watch():43] Watching
+2022-02-14 22:47:52,491 INFO    MainThread:25702 [wandb_run.py:_atexit_cleanup():1797] got exitcode: 1
+2022-02-14 22:47:52,498 INFO    MainThread:25702 [wandb_run.py:_restore():1769] restore
+2022-02-14 22:47:54,906 INFO    MainThread:25702 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 892
+  total_bytes: 892
+}
+
+2022-02-14 22:47:55,046 INFO    MainThread:25702 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 892
+  total_bytes: 892
+}
+
+2022-02-14 22:47:55,841 INFO    MainThread:25702 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 892
+  total_bytes: 14343
+}
+
+2022-02-14 22:47:55,944 INFO    MainThread:25702 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 3407
+  total_bytes: 14343
+}
+
+2022-02-14 22:47:56,047 INFO    MainThread:25702 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 14343
+  total_bytes: 14343
+}
+
+2022-02-14 22:47:56,150 INFO    MainThread:25702 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 14343
+  total_bytes: 14343
+}
+
+2022-02-14 22:47:56,255 INFO    MainThread:25702 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 14343
+  total_bytes: 14343
+}
+
+2022-02-14 22:47:56,358 INFO    MainThread:25702 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 14343
+  total_bytes: 14343
+}
+
+2022-02-14 22:47:56,523 INFO    MainThread:25702 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 14343
+  total_bytes: 14343
+}
+
+2022-02-14 22:47:56,727 INFO    MainThread:25702 [wandb_run.py:_wait_for_finish():1929] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 14343
+  total_bytes: 14343
+}
+local_info {
+}
+
+2022-02-14 22:47:58,791 INFO    MainThread:25702 [wandb_run.py:_append_history():2144] rendering history
+2022-02-14 22:47:58,793 INFO    MainThread:25702 [wandb_run.py:_append_summary():2102] rendering summary
+2022-02-14 22:47:58,793 INFO    MainThread:25702 [wandb_run.py:_append_files():2194] logging synced files

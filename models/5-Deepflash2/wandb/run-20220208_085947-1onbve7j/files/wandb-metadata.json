@@ -1,0 +1,24 @@
+{
+    "os": "Linux-3.10.0-1160.49.1.el7.x86_64-x86_64-with-glibc2.17",
+    "python": "3.9.6",
+    "heartbeatAt": "2022-02-08T13:59:57.080896",
+    "startedAt": "2022-02-08T13:59:47.224036",
+    "docker": null,
+    "gpu": "Tesla V100-PCIE-32GB",
+    "gpu_count": 2,
+    "cpu_count": 40,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021/models/5-Deepflash2/DeepFlash2-Train.py",
+    "codePath": "models/5-Deepflash2/DeepFlash2-Train.py",
+    "git": {
+        "remote": "https://github.com/cns-iu/ccf-research-kaggle-2021.git",
+        "commit": "14b6f6c889dca750b9ee5be9df6f0da4dbfbb4fe"
+    },
+    "email": null,
+    "root": "/geode2/home/u090/soodn/Carbonate/ccf-research-kaggle-2021",
+    "host": "g20",
+    "username": "soodn",
+    "executable": "/N/soft/rhel7/deeplearning/Python-3.9.6/bin/python"
+}
