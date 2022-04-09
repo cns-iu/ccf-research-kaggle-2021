@@ -9,7 +9,10 @@ from logger import logger, log_init
 from train import start
 import utils 
 from config import cfg, cfg_init
+import time
 
+def elapsed_time(start_time):
+    return time.time() - start_time
 
 def set_gpus(cfg):
     if os.environ.get('CUDA_VISIBLE_DEVICES') is None:
@@ -46,13 +49,12 @@ def init_output_folder(cfg):
     if cfg.PARALLEL.LOCAL_RANK == 0:
         output_folder = utils.make_folders(cfg)
         shutil.copytree('src', str(output_folder/'src'))
-        #if os.path.exists('/mnt/src'): shutil.copytree('/mnt/src', str(output_folder/'src'))
     return output_folder
 
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--local_rank", default=0, type=int)
-    parser.add_argument("--cfg", default='src/configs/unet.yaml', type=str)
+    parser.add_argument("--cfg", default='configs/unet.yaml', type=str) 
     args = parser.parse_args()
     return args
 
@@ -62,6 +64,7 @@ if __name__  == "__main__":
         This is because of torch DDP https://pytorch.org/docs/stable/notes/ddp.html ,
         which is multiprocess (several GPUs), and even multinode (several servers) setup
     """
+    start_time = time.time()
     args = parse_args()
     cfg_init(args.cfg)
     set_gpus(cfg)
@@ -71,3 +74,4 @@ if __name__  == "__main__":
     output_folder = init_output_folder(cfg)
     log_init(output_folder)
     start(cfg, output_folder)
+    print ("Run time = ", elapsed_time(start))

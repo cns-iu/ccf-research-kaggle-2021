@@ -86,9 +86,9 @@ def get_optim(cfg, model):
     opt = optim.AdamW
     opt_kwargs = {'amsgrad':True, 'weight_decay':1e-3}
     optimizer = opt(tencent_trick(model), lr=lr, **opt_kwargs)
-    if cfg.TRAIN.INIT_MODEL: 
-        st =  _load_opt_state(model, cfg.TRAIN.INIT_MODEL)
-        optimizer.load_state_dict(st)
+    # if cfg.TRAIN.INIT_MODEL: 
+    #     st =  _load_opt_state(model, cfg.TRAIN.INIT_MODEL)
+    #     optimizer.load_state_dict(st)
     return optimizer
 
 def wrap_ddp(cfg, model):

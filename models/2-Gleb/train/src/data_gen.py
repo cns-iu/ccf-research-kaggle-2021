@@ -15,6 +15,7 @@ import data
 import sampler
 from rle2tiff import start as create_masks
 from split_gen import do_split
+import time
 
 
 def cut_glomi(imgs_path, masks_path, dst_path):
@@ -116,6 +117,7 @@ def cut_grid(imgs_path, masks_path, dst_path):
             if idx > 35: break
 
 if __name__  == "__main__":
+    start_time = time.time()
     src = 'input/'
     src = Path(src)
     hub_src = src / 'HUBMAP'
@@ -140,4 +142,6 @@ if __name__  == "__main__":
     # This breaks cutted tiff's into train and val splits based in tiff ids
     do_split(grid_path, src / 'SPLITS/grid_split' )
     do_split(glomi_path, src / 'SPLITS/glomi_split' )
+    end_time = time.time()
+    print (end_time - start_time)
 
