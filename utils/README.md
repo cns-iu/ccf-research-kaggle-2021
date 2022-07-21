@@ -1,5 +1,6 @@
 ### Utilities
 
+- `Computation of FTU Density for HuBMAP Data and Visualizations.ipynb`: Used to compute FTU density for HuBMAP data and generate related visualizations. Requires all FTU masks and Anatomical Structure masks (kidney) in json format.
 - `Performance Metrics - Colon`: Used to calculate all performance metrics on colon data. Requires a `submission.csv` file generated after running inference on a trained model.
 - `Performance Metrics - Kidney`: Used to calculate all performance metrics on kidney data. Requires a `submission.csv` file generated after running inference on a trained model.
 - `Result Analysis - Gloms Missed A3.ipynb`: Sample code to count FTUs and calculate missed and wrongly predicted FTUs (using area overlap, not used for final results).
