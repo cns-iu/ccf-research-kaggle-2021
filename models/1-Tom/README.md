@@ -21,7 +21,7 @@
 ### Usage
 - For model training, use `train` directory:
     ```
-    cd src
+    cd train/src
     cd 01_data_preparation/01_01
     python data_preparation_01_01.py
     cd ..
