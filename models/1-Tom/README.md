@@ -19,8 +19,8 @@
 - See `kaggle-hubmap-main/requirements.txt` file for a detailed list of dependencies.
 
 ### Usage
-- Use Inference.py to run inference on a dataset.
-- Use train folder to train on a dataset.
+- For model training, use `train` directory:
+    ```
     cd src
     cd 01_data_preparation/01_01
     python data_preparation_01_01.py
@@ -31,4 +31,5 @@
     cd ..
     cd 02_train
     python train_02.py
-
+    ```
+- For inference using trained models, use `Inference.py`.
