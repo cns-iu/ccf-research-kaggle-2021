@@ -9,6 +9,9 @@
 ### Requirements
 - albumentations
 - opencv-python
+- tifffile
+- rasterio
+- skimage
 - pandas
 - torch
 - tqdm
