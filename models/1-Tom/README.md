@@ -7,6 +7,7 @@
 - For the model trained on colon data from scratch or using transfer learning, the training is done for 50-100 epochs and the validation set is increased from 1 slide to 2 slides.
 
 ### Requirements
+- Anaconda
 - albumentations
 - opencv-python
 - tifffile
@@ -19,7 +20,6 @@
 - CUDA 
 - cuddn 
 - nvidia drivers 
-- See `kaggle-hubmap-main/requirements.txt` file for a detailed list of dependencies.
 
 ### Usage
 - For model training, use `train` directory:
