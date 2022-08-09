@@ -2,203 +2,187 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Companion Website for the paper "Segmentation of human functional tissue units at scale"</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <style>
-    hr {
-      border: none;
-      border-top: thin solid;
-      background-color: rgb(66, 66, 66);
-    }
-
-    ul.no-bullets {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    h1 {
-      margin-top: 30px;
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-    }
-
-    .hidden {
-      display: none;
-    }
-  </style>
-  <script>
-    showIframe = function (id, url) {
-      var iframe = document.getElementById(id);
-      iframe.src = url;
-      iframe.height = 600;
-      var p = document.getElementById(id + "-message");
-      if (p) {
-        p.classList.remove("hidden")
-      }
-    }
-  </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Companion Website for the paper "Segmentation of human functional tissue units in support of a Human Reference Atlas"
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        hr {
+            border: none;
+            border-top: thin solid;
+            background-color: rgb(66, 66, 66);
+        }
+        
+        ul.no-bullets {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        h1 {
+            margin-top: 30px;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        .hidden {
+            display: none;
+        }
+    </style>
+    <script>
+        showIframe = function(id, url) {
+            var iframe = document.getElementById(id);
+            iframe.src = url;
+            iframe.height = 600;
+            var p = document.getElementById(id + "-message");
+            if (p) {
+                p.classList.remove("hidden")
+            }
+        }
+    </script>
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <p></p>
-    </div>
-    <div class="row">
-      <div class="col">
-        <h1>Companion Website for “Segmentation of human functional tissue units at scale”</h1>
-        <p></p>
-        <p>Leah L. Godwin<sup>1*</sup>, Yingnan Ju<sup>1</sup>, Naveksha Sood<sup>1</sup>, Yashvardhan Jain<sup>1</sup>,
-          Ellen M. Quardokus<sup>1</sup>, Andreas Bueckle<sup>1</sup>, Teri Longacre<sup>2</sup>, Aaron
-          Horning<sup>3</sup>, Yiing Lin<sup>4</sup>, Edward D. Esplin<sup>5</sup>, John W. Hickey<sup>6</sup>, Michael
-          P. Snyder<sup>5</sup>, N. Heath Patterson<sup>7</sup>, Jeffrey M. Spraggins<sup>7</sup>, Katy
-          Börner<sup>1*</sup></p>
+    <div class="container">
+        <div class="row">
+            <p></p>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1>Companion Website for “Segmentation of human functional tissue units in support of a Human Reference Atlas”
+                </h1>
+                <p></p>
+                <p>Leah L. Godwin<sup>1*</sup>, Yingnan Ju<sup>1</sup>, Naveksha Sood<sup>1</sup>, Yashvardhan Jain<sup>1</sup>, Ellen M. Quardokus<sup>1</sup>, Andreas Bueckle<sup>1</sup>, Teri Longacre<sup>2</sup>, Aaron Horning
+                    <sup>3</sup>, Yiing Lin<sup>4</sup>, Edward D. Esplin<sup>5</sup>, John W. Hickey<sup>6</sup>, Michael P. Snyder
+                    <sup>5</sup>, N. Heath Patterson<sup>7</sup>, Jeffrey M. Spraggins<sup>8</sup>, Katy Börner
+                    <sup>1*</sup></p>
 
-        <ul class="no-bullets">
-          <li><sup>1</sup> Department of Intelligent Systems Engineering, Luddy School of Informatics, Computing, and
-            Engineering,
-            Indiana University, Bloomington, IN 47408, USA</li>
-          <li><sup>2</sup> Department of Pathology, Stanford University School of Medicine, Stanford, CA 94305, USA</li>
-          <li><sup>3</sup> Thermo Fisher Scientific, South San Francisco, CA 94080, USA</li>
-          <li><sup>4</sup> Department of Surgery, Washington University School of Medicine, St. Louis, MO 63110, USA
-          </li>
-          <li><sup>5</sup> Department of Genetics, Stanford University School of Medicine, Stanford, CA 94305, USA</li>
-          <li><sup>6</sup> Department of Microbiology & Immunology, Stanford University School of Medicine, Stanford,
-            CA 94305, USA</li>
-          <li><sup>7</sup> Mass Spectrometry Research Center, Vanderbilt University, Nashville, TN 37232, USA</li>
-        </ul>
-      </div>
-    </div>
-    <hr>
+                <ul class="no-bullets">
+                    <li><sup>1</sup> Department of Intelligent Systems Engineering, Luddy School of Informatics, Computing, and Engineering, Indiana University, Bloomington, IN 47408, USA</li>
+                    <li><sup>2</sup> Department of Pathology, Stanford University School of Medicine, Stanford, CA 94305, USA</li>
+                    <li><sup>3</sup> Thermo Fisher Scientific, South San Francisco, CA 94080, USA</li>
+                    <li><sup>4</sup> Department of Surgery, Washington University School of Medicine, St. Louis, MO 63110, USA
+                    </li>
+                    <li><sup>5</sup> Department of Genetics, Stanford University School of Medicine, Stanford, CA 94305, USA</li>
+                    <li><sup>6</sup> Department of Microbiology & Immunology, Stanford University School of Medicine, Stanford, CA 94305, USA</li>
+                    <li><sup>7</sup> Department of Biochemistry, Mass Spectrometry Research Center, Vanderbilt University School of Medicine, Nashville, TN 37232, USA</li>
+                    <li><sup>8</sup> Department of Cell and Developmental Biology, Mass Spectrometry Research Center, Vanderbilt University School of Medicine, Nashville, TN 37232, USA
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
 
-    <div class="row">
-      <div class="col">
-        <p> <a target="_blank" href="https://www.biorxiv.org/content/10.1101/2021.11.09.467810v1">Link to preprint on
+        <div class="row">
+            <div class="col">
+                <p> <a target="_blank" href="https://www.biorxiv.org/content/10.1101/2021.11.09.467810v1">Link to preprint on
             bioRxiv</a></p>
-        <p><a target="_blank" href="https://github.com/cns-iu/ccf-research-kaggle-2021">Link to code on GitHub</a></p>
-        <p><a target="_blank" href="https://drive.google.com/drive/u/0/folders/1m_NjuladAGt0iboq_eXHBRwjmkP2w6uc">Link
+                <p><a target="_blank" href="https://github.com/cns-iu/ccf-research-kaggle-2021">Link to code on GitHub</a></p>
+                <p><a target="_blank" href="https://drive.google.com/drive/u/0/folders/1m_NjuladAGt0iboq_eXHBRwjmkP2w6uc">Link
             to Trained Analysis Models and Data</a> </p>
-      </div>
-    </div>
-    <hr>
+            </div>
+        </div>
+        <hr>
 
-    <div class="row">
-      <div class="col">
-        <h4>Explore Tissue Data in 3D</h4>
-        <p>All tissue datasets used in this study can be explored in their three-dimensional size, position, and
-          rotation in the context of the Human Reference Atlas. <b>10</b> Datasets come from the left male, <b>five</b>
-          from the right male, <b>seven</b> from the left female and <b>eight</b> from the right female kidney; four come from the male colon and three from the
-          female colon. Using the Exploration User Interface (EUI), you can:</p>
-        <ul>
-          <li><b>Select an organ</b>: One can navigate available organs by selecting them from the carousel above the
-            stage
-            or using the ontology on the left.</li>
-          <li><b>Filter</b>: Above the Search is the Filter icon which opens a flyout with many options (e.g. Sex, Assay
-            Types, etc) for refining what tissue data is presented.</li>
-          <li> <b>Registered Blocks</b>: It is possible to select a block of tissue samples either using the bodies on
-            stage or the cards in the right column. Color coding helps to identify different selections.</li>
-          <li><b>Data</b>: Using the cards in the right column, click on items to dig deeper into the data. <b>You can
+        <div class="row">
+            <div class="col">
+                <h4>Explore Tissue Data in 3D</h4>
+                <p>All HuBMAP tissue datasets used in this study can be explored in their three-dimensional size, position, and rotation in the context of the Human Reference Atlas. <b>10</b> Datasets come from the left male, <b>five</b> from the right male,
+                    <b>seven</b> from the left female and <b>eight</b> from the right female kidney; four come from the male colon and three from the female colon. Using the Exploration User Interface (EUI), you can:
+                </p>
+                <ul>
+                    <li><b>Select an organ</b>: One can navigate available organs by selecting them from the carousel above the stage or using the ontology on the left.</li>
+                    <li><b>Filter</b>: Above the Search is the Filter icon which opens a flyout with many options (e.g. Sex, Assay Types, etc) for refining what tissue data is presented.</li>
+                    <li> <b>Registered Blocks</b>: It is possible to select a block of tissue samples either using the bodies on stage or the cards in the right column. Color coding helps to identify different selections.</li>
+                    <li><b>Data</b>: Using the cards in the right column, click on items to dig deeper into the data. <b>You can
               watch a tutorial on how to use the EUI <a target="_blank"
                 href="https://www.youtube.com/watch?v=YAHJqvD3Q_8">here</a></b>.
-          </li>
-        </ul>
+                    </li>
+                </ul>
 
-      </div>
-    </div>
+            </div>
+        </div>
 
-    <div class="row">
-      <div class="col-12">
-        <p><a target="_blank" href="https://cns-iu.github.io/hubmap-2021-kaggle-blocks/">External link to
+        <div class="row">
+            <div class="col-12">
+                <p><a target="_blank" href="https://cns-iu.github.io/hubmap-2021-kaggle-blocks/">External link to
             EUI web component</a></p>
-        <button type="button" class="btn btn-primary"
-          onClick="showIframe('eui', 'https://cns-iu.github.io/hubmap-2021-kaggle-blocks/')">Load</button>
-        <span id="eui-message" class="hidden">Please visit <a target="_blank"
+                <button type="button" class="btn btn-primary" onClick="showIframe('eui', 'https://cns-iu.github.io/hubmap-2021-kaggle-blocks/')">Load</button>
+                <span id="eui-message" class="hidden">Please visit <a target="_blank"
             href="https://cns-iu.github.io/hubmap-2021-kaggle-blocks/">https://cns-iu.github.io/hubmap-2021-kaggle-blocks/</a>
           to explore the tissue blocks in a separate tab.
         </span>
-        <iframe id="eui" width="100%" height="395" src="thumbnails/eui__preview.jpg" frameborder="0"></iframe>
+                <iframe id="eui" width="100%" height="395" src="thumbnails/eui__preview.jpg" frameborder="0"></iframe>
 
-      </div>
-    </div>
-    <hr>
+            </div>
+        </div>
+        <hr>
 
-    <div class="row">
-      <div class="col">
-        <h4>Predicted FTU Segmentations</h4>
-        <p>The colon WSI that are used for the prediction task are shown in a tissue viewer interface. The tissue
-          section HBM462.JKCN.863 (see <a href="#inter1-row">below</a>) has 124 and HBM438.JXJW.249 (see <a
-            href="#inter2-row">below</a>) has 36 crypts in the ground
-          truth (GT) given in yellow.
-          See legend in top right for color coding used for segmentation masks predicted by the five winning algorithms.
-          For number of FTUs in solutions predicted by the five algorithms, see Supplementary Table 5 (Algorithm
-          Performance).</p>
+        <div class="row">
+            <div class="col">
+                <h4>Predicted FTU Segmentations</h4>
+                <p>The colon WSI that are used for the prediction task are shown in a tissue viewer interface. The tissue section HBM462.JKCN.863 (see <a href="#inter1-row">below</a>) has 124 and HBM438.JXJW.249 (see <a href="#inter2-row">below</a>) has
+                    36 crypts in the ground truth (GT) given in yellow. See legend in top right for color coding used for segmentation masks predicted by the five winning algorithms. For number of FTUs in solutions predicted by the five algorithms, see
+                    Supplementary Table 5 (Algorithm Performance).
+                </p>
 
-        <p>Turn on and off different segmentations masks via selection of algorithms in legend. Hover over segmentations
-          in tissue viewer to see WSI data without occlusion.
-        </p>
-      </div>
-    </div>
-    <div id="inter1-row" class="row">
-      <div class="col-12">
-        <p><a target="_blank" href="https://juyingnan.github.io/tempio/html/CL_HandE_1234_B004_bottomleft.html">
+                <p>Turn on and off different segmentations masks via selection of algorithms in legend. Hover over segmentations in tissue viewer to see WSI data without occlusion.
+                </p>
+            </div>
+        </div>
+        <div id="inter1-row" class="row">
+            <div class="col-12">
+                <p><a target="_blank" href="https://juyingnan.github.io/tempio/html/CL_HandE_1234_B004_bottomleft.html">
             External link to interactive comparison #1 (CL_HandE_1234_bottomleft: HBM462.JKCN.863)</a></p>
 
-        <button type="button" class="btn btn-primary"
-          onClick="
+                <button type="button" class="btn btn-primary" onClick="
         showIframe('inter1', 'https://juyingnan.github.io/tempio/html/CL_HandE_1234_B004_bottomleft.html')">Load</button>
-        <span id="inter1-message" class="hidden">Please use your left mouse button or the scroll bars on the bottom and
+                <span id="inter1-message" class="hidden">Please use your left mouse button or the scroll bars on the bottom and
           right edge of the window below to view other parts of the tissue.</span>
 
-        <iframe id="inter1" width="100%" height="488" src="thumbnails/inter1_preview.jpg" frameborder="0"></iframe>
-      </div>
-    </div>
+                <iframe id="inter1" width="100%" height="488" src="thumbnails/inter1_preview.jpg" frameborder="0"></iframe>
+            </div>
+        </div>
 
 
-    <div id="inter2-row" class="row" style="margin-top: 80px;">
-      <div class="col-12">
-        <p><a target="_blank" href="https://juyingnan.github.io/tempio/html/HandE_B005_CL_b_RGB_bottomleft.html">
+        <div id="inter2-row" class="row" style="margin-top: 80px;">
+            <div class="col-12">
+                <p><a target="_blank" href="https://juyingnan.github.io/tempio/html/HandE_B005_CL_b_RGB_bottomleft.html">
             External link to interactive comparison #2 (HandE_B005_CL_b_RGB_bottomleft: HBM438.JXJW.249)</a></p>
 
-        <button type="button" class="btn btn-primary" onClick="
+                <button type="button" class="btn btn-primary" onClick="
         showIframe('inter2', 'https://juyingnan.github.io/tempio/html/HandE_B005_CL_b_RGB_bottomleft.html')
         ">Load</button>
-        <span id="inter2-message" class="hidden">Please use your left mouse button or the scroll bars on the bottom and
+                <span id="inter2-message" class="hidden">Please use your left mouse button or the scroll bars on the bottom and
           right edge of the window below to view other parts of the tissue.</span>
-        <iframe id="inter2" width="100%" height="512" src="thumbnails/inter2_preview.jpg" frameborder="0"></iframe>
-      </div>
-    </div>
-    <hr>
+                <iframe id="inter2" width="100%" height="512" src="thumbnails/inter2_preview.jpg" frameborder="0"></iframe>
+            </div>
+        </div>
+        <hr>
 
-    <div class="row">
-      <div class="col-12">
-        <h4>Algorithm Performance Results</h4>
-        <p>This interactive violin plots shows performance values for all five algorithms for three metrics: DICE
-          (left), precision (top right), and recall (bottom right). For each metric, we show distribution for the ten
-          kidney WSI with 2,038 glomeruli on the left and the distribution for the two colon WSI with 160 crypts
-          transfer learning predictions on the right.</p>
-        <p>Run time performance was recorded for the training phase on kidney data, colon data exclusively (no
-          transfer), and on kidney data and colon data, see Table 1. We also report run time for the two prediction
-          tasks: from scratch without transfer learning (i.e., trained on five colon, tested on two colon datasets)
-          and transfer learning (i.e., trained on 15 kidney datasets initially and then trained on five colon
-          datasets, then tested on two colon datasets), see Methods section for details.
-        </p>
-        <p><a target="_blank" href="https://juyingnan.github.io/tempio/html/kaggle_violin.html">External link to
+        <div class="row">
+            <div class="col-12">
+                <h4>Algorithm Performance Results</h4>
+                <p>This interactive violin plots shows performance values for all five algorithms for three metrics: Dice (left), precision (top right), and recall (bottom right). For each metric, we show distribution for the ten kidney WSI with 2,038 glomeruli
+                    on the left and the distribution for the two colon WSI with 160 crypts transfer learning predictions on the right.
+                </p>
+                <p>Run time performance was recorded for the training phase on kidney data, colon data exclusively (no transfer), and on kidney data and colon data, see Table 1. We also report run time for the two prediction tasks: from scratch without transfer
+                    learning (i.e., trained on five colon, tested on two colon datasets) and transfer learning (i.e., trained on 15 kidney datasets initially and then trained on five colon datasets, then tested on two colon datasets), see Methods section
+                    for details.
+                </p>
+                <p><a target="_blank" href="https://juyingnan.github.io/tempio/html/kaggle_violin.html">External link to
             algorithm performance results</a></p>
-        <button type="button" class="btn btn-primary"
-          onClick="
+                <button type="button" class="btn btn-primary" onClick="
           showIframe('violin', 'https://juyingnan.github.io/tempio/html/kaggle_violin.html');
           ">Load</button>
-        <iframe id="violin" width="100%" height="395" src="thumbnails/violin_preview.jpg" frameborder="0"></iframe>
+                <iframe id="violin" width="100%" height="395" src="thumbnails/violin_preview.jpg" frameborder="0"></iframe>
 
-      </div>
-    </div>
+            </div>
+        </div>
 </body>
 
 </html>
