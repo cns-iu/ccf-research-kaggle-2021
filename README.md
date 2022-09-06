@@ -16,7 +16,7 @@ The repo is structured in the following way:
 ```
 ## Data
 
-The colon data as well as the trained models can be accessed [here](https://drive.google.com/drive/u/0/folders/1m_NjuladAGt0iboq_eXHBRwjmkP2w6uc).
+All data (Images, ground truth masks, and predictions) as well as the trained models can be accessed [here](https://drive.google.com/drive/folders/1MCRWs1GaNgqNspFgWvyCUB0D2JptJ8Vd?usp=sharing).
 
 The kidney data is provided as a [HuBMAP collection](https://portal.hubmapconsortium.org/browse/collection/4964d24bbc6668a72c4cbb5e0393a6bc
 ).
