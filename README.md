@@ -16,7 +16,7 @@ The repo is structured in the following way:
 ```
 ## Data
 
-All data (Images, ground truth masks, and predictions) as well as the trained models can be accessed [here](https://drive.google.com/drive/folders/1MCRWs1GaNgqNspFgWvyCUB0D2JptJ8Vd?usp=sharing).
+All data (Images, ground truth masks, and predictions) as well as the trained models can be accessed [here](https://drive.google.com/drive/folders/1nGksOadRlS-G3CYisZ0jMWM1mPMjuUOt?usp=sharing).
 
 The kidney data is provided as a [HuBMAP collection](https://portal.hubmapconsortium.org/browse/collection/4964d24bbc6668a72c4cbb5e0393a6bc
 ).
