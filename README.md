@@ -16,9 +16,9 @@ The repo is structured in the following way:
 ```
 ## Data
 
-All data (Images, ground truth masks, and predictions) are available as a Zenodo Dataset and can be downloaded from https://doi.org/10.5281/zenodo.7729610. 
+All data (Images, ground truth masks, and predictions) are available as a Zenodo Dataset and can be downloaded from https://doi.org/10.5281/zenodo.7729609. 
 
-The trained models are available as a Zenodo Dataset and can be downloaded from https://doi.org/10.5281/zenodo.7730028.
+The trained models are available as a Zenodo Dataset and can be downloaded from https://doi.org/10.5281/zenodo.7730027.
 
 The HuBMAP kidney data (30 WSIs) is also available as a [HuBMAP collection](https://portal.hubmapconsortium.org/browse/collection/4964d24bbc6668a72c4cbb5e0393a6bc
 ).
