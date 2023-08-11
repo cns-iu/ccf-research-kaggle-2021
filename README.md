@@ -34,4 +34,5 @@ The repository contains 5 models:
 4. Deeplive.exe (1st Judges prize)
 5. Deepflash2 (2nd Judges prize)
 
-
+## Visualization
+The ground truth and predictions from the five winning models are visualized using [Vitessce](http://vitessce.io/) for 10 PAS-stained kidney tissue images from the test set at the [HuBMAP Data Portal's Publication Page](https://portal.hubmapconsortium.org/browse/publication/eb975811a1a3005622c4da37d948117e).
