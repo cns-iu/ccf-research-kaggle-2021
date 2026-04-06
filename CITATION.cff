@@ -1,0 +1,77 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it using the metadata below."
+authors:
+- family-names: Jain
+  given-names: Yashvardhan
+- family-names: Godwin
+  given-names: Leah L.
+- family-names: Ju
+  given-names: Yingnan
+- family-names: Sood
+  given-names: Naveksha
+- family-names: Quardokus
+  given-names: Ellen M.
+- family-names: Bueckle
+  given-names: Andreas
+- family-names: Longacre
+  given-names: Teri
+- family-names: Horning
+  given-names: Aaron
+- family-names: Lin
+  given-names: Yiing
+- family-names: Esplin
+  given-names: Edward D.
+- family-names: Hickey
+  given-names: John W.
+- family-names: Snyder
+  given-names: Michael P.
+- family-names: Patterson
+  given-names: Nathan Heath
+- family-names: Spraggins
+  given-names: Jeffrey M.
+- family-names: Börner
+  given-names: Katy
+title: "Segmentation of human functional tissue units in support of a Human Reference Atlas"
+doi: 10.1038/s42003-023-04848-5
+date-released: 2023-07-10
+url: "https://doi.org/10.1038/s42003-023-04848-5"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: Jain
+    given-names: Yashvardhan
+  - family-names: Godwin
+    given-names: Leah L.
+  - family-names: Ju
+    given-names: Yingnan
+  - family-names: Sood
+    given-names: Naveksha
+  - family-names: Quardokus
+    given-names: Ellen M.
+  - family-names: Bueckle
+    given-names: Andreas
+  - family-names: Longacre
+    given-names: Teri
+  - family-names: Horning
+    given-names: Aaron
+  - family-names: Lin
+    given-names: Yiing
+  - family-names: Esplin
+    given-names: Edward D.
+  - family-names: Hickey
+    given-names: John W.
+  - family-names: Snyder
+    given-names: Michael P.
+  - family-names: Patterson
+    given-names: Nathan Heath
+  - family-names: Spraggins
+    given-names: Jeffrey M.
+  - family-names: Börner
+    given-names: Katy
+  doi: "10.1038/s42003-023-04848-5"
+  title: "Segmentation of human functional tissue units in support of a Human Reference Atlas"
+  journal: "Communications Biology"
+  volume: 6
+  issue: 1
+  pages: "717"
+  year: 2023
